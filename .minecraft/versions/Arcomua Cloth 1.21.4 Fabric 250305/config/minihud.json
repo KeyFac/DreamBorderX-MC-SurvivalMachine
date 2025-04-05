@@ -497,7 +497,7 @@
     "§6debugBeeDataEnabled§r": false,
     "§6debugBrainEnabled§r": false,
     "§6debugBreezeJumpEnabled§r": false,
-    "debugChunkBorder": true,
+    "debugChunkBorder": false,
     "debugChunkInfo": false,
     "§6debugChunkLoading§r": false,
     "debugChunkOcclusion": false,

@@ -1,4 +1,4 @@
-[14:15:58] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
+[22:30:34] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.MinecraftServer.method_3772()" because the return value of "dev.architectury.utils.GameInstance.getServer()" is null
 	at knot//me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.getAllSortedRecipes(ServerDisplayRegistryImpl.java:230)
 	at knot//me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.fillRecipes(ServerDisplayRegistryImpl.java:216)
@@ -15,7 +15,7 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.MinecraftSer
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[14:58:09] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
+[22:51:19] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.MinecraftServer.method_3772()" because the return value of "dev.architectury.utils.GameInstance.getServer()" is null
 	at knot//me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.getAllSortedRecipes(ServerDisplayRegistryImpl.java:230)
 	at knot//me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.fillRecipes(ServerDisplayRegistryImpl.java:216)
@@ -32,7 +32,7 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.server.MinecraftSer
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[14:58:48] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
+[23:05:16] [REI-ReloadPlugins/ERROR] [REI] Failed to run end-reload task for reloadable [ServerDisplayRegistryImpl] in stage [END]
 java.lang.NullPointerException: Cannot invoke "net.minecraft.server.MinecraftServer.method_3772()" because the return value of "dev.architectury.utils.GameInstance.getServer()" is null
 	at knot//me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.getAllSortedRecipes(ServerDisplayRegistryImpl.java:230)
 	at knot//me.shedaniel.rei.impl.common.registry.displays.ServerDisplayRegistryImpl.fillRecipes(ServerDisplayRegistryImpl.java:216)
