@@ -1,0 +1,7 @@
+shipwreck;-72;-57
+shipwreck;-80;-58
+shipwreck;-72;-57
+shipwreck;-23;-65
+shipwreck;-72;-57
+buried_treasure;-39;-53
+buried_treasure;-35;-50

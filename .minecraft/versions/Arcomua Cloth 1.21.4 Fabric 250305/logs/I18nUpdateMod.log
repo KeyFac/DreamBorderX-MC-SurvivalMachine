@@ -1,0 +1,14 @@
+[2025-04-05 14:14:48] [INFO]: I18nUpdate Mod 3.6.2 is loaded in 1.21.4 with Fabric
+[2025-04-05 14:14:48] [DEBUG]: Minecraft path: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305
+[2025-04-05 14:14:48] [DEBUG]: Local Storage Pos: C:\Users\Administrator
+[2025-04-05 14:14:48] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21-Fabric.zip md5: E11E5787088731EA1C4DA24006934F75, remote md5: E11E5787088731EA1C4DA24006934F75
+[2025-04-05 14:14:48] [DEBUG]: Already up to date.
+[2025-04-05 14:14:48] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20-Fabric.zip md5: 09D47EC3EC5F3F04BAE8DB002A913928, remote md5: 09D47EC3EC5F3F04BAE8DB002A913928
+[2025-04-05 14:14:48] [DEBUG]: Already up to date.
+[2025-04-05 14:14:48] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip md5: 55287FF86674A6420A72AE692567F66D, remote md5: 55287FF86674A6420A72AE692567F66D
+[2025-04-05 14:14:48] [DEBUG]: Already up to date.
+[2025-04-05 14:14:48] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21-Fabric.zip
+[2025-04-05 14:14:48] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20-Fabric.zip
+[2025-04-05 14:14:48] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2025-04-05 14:14:48] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21-Fabric.zip, C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20-Fabric.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip] -> C:\Users\Administrator\.i18nupdatemod\1.21.4\Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip
+[2025-04-05 14:14:48] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.21.4\Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip -> D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip

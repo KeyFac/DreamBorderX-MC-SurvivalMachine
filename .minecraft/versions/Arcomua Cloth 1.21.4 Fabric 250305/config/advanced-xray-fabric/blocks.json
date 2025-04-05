@@ -1,0 +1,41 @@
+[
+  {
+    "name": "default",
+    "entries": [
+      {
+        "state": "{Name:\"minecraft:calcite\"}",
+        "name": "方解石",
+        "color": "#000000",
+        "order": 2,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:chest\",Properties:{facing:\"north\",type:\"single\",waterlogged:\"false\"}}",
+        "name": "箱子",
+        "color": "#ec8e00",
+        "order": 2,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:obsidian\"}",
+        "name": "黑曜石",
+        "color": "#000000",
+        "order": 3,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:dragon_egg\"}",
+        "name": "龙蛋",
+        "color": "#a20bd6",
+        "order": 4,
+        "isDefault": true,
+        "active": false
+      }
+    ],
+    "order": 1,
+    "active": true
+  }
+]

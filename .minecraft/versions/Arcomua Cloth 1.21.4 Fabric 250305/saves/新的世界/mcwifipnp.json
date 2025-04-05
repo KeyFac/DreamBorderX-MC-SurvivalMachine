@@ -1,0 +1,15 @@
+{
+  "port": 13860,
+  "allow-host-cheat": true,
+  "max-players": 8,
+  "gamemode": "survival",
+  "motd": "KeyFac - 新的世界",
+  "allow-everyone-cheat": true,
+  "enforce-whitelist": false,
+  "enable-upnp": true,
+  "online-mode": false,
+  "enable-uuid-fixer": true,
+  "forced-offline-players": [],
+  "pvp": true,
+  "get-public-ip": true
+}

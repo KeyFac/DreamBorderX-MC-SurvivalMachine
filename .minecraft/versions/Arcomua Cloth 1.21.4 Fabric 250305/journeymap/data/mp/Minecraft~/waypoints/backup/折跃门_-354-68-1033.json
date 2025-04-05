@@ -1,0 +1,22 @@
+{
+  "id": "折跃门_-354-68-1033",
+  "name": "折跃门",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--4643022-waypoint-icon.png",
+  "x": -354,
+  "y": 68,
+  "z": 1033,
+  "r": 185,
+  "g": 39,
+  "b": 50,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

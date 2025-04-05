@@ -1,0 +1,22 @@
+{
+  "id": "endcity_-1192-57-2296",
+  "name": "endcity",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1947141-waypoint-icon.png",
+  "x": -1192,
+  "y": 57,
+  "z": 2296,
+  "r": 226,
+  "g": 73,
+  "b": 251,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
