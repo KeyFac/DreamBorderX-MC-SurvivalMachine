@@ -1,5 +1,7 @@
 {
-  "last_directories": {},
+  "last_directories": {
+    "schematic_load": "D:\\Users\\Documents\\Github\\DreamBorderX-MC-SurvivalMachine\\.minecraft\\versions\\Arcomua Cloth 1.21.4 Fabric 250305\\schematics"
+  },
   "create_placement_on_load": true,
-  "config_gui_tab": "HOTKEYS"
+  "config_gui_tab": "GENERIC"
 }
