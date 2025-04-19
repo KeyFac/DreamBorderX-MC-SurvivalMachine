@@ -745,7 +745,7 @@
     "tweakAccurateBlockPlacement": false,
     "tweakAfterClicker": false,
     "tweakAimLock": false,
-    "tweakAngelBlock": false,
+    "tweakAngelBlock": true,
     "tweakAreaSelector": false,
     "tweakAutoSwitchElytra": true,
     "§6tweakBlockReachOverride§r": false,
@@ -1024,7 +1024,7 @@
       "keys": ""
     },
     "tweakRepairMode": {
-      "keys": ""
+      "keys": "KP_8"
     },
     "§6tweakSculkPulseLength§r": {
       "keys": ""

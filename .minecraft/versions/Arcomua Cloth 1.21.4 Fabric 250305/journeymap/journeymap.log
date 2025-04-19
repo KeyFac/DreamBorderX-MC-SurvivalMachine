@@ -1,9 +1,9 @@
-[20:56:40] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:56:40] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[20:56:40] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
-[20:56:40] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
-[20:56:40] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[20:56:40] [Render thread/INFO] [?] Version: JourneyMap 1.21.4-6.0.0-beta.41, built with fabric 0.110.5+1.21.4
+[14:15:10] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[14:15:10] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[14:15:10] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[14:15:10] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
+[14:15:10] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[14:15:11] [Render thread/INFO] [?] Version: JourneyMap 1.21.4-6.0.0-beta.41, built with fabric 0.110.5+1.21.4
 fabric: 0.16.9
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
 Features: 
@@ -15,63 +15,876 @@ Features:
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
 	MapBiome : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.41, infoSlotTimeFormat=HH:mm:ss, zoomLevel=1024, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.0, positionY=0.08244505, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=night, showCompass=true, showNpcNames=false, mobDisplay=点和轮廓图标, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=方形, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=罗盘, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=底部, showWaypoints=true, info2LabelPosition=顶部, minimapKeyMovementSpeed=0.001, info1LabelPosition=顶部, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=1, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=自定义, fontScale=1.0, info4LabelPosition=底部, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=北, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=轮廓图标, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
-MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.0-beta.41, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=点和轮廓图标, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=矩形, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=罗盘, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=底部, showWaypoints=true, info2LabelPosition=顶部, minimapKeyMovementSpeed=0.001, info1LabelPosition=顶部, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=右上, fontScale=1.0, info4LabelPosition=底部, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=北, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=轮廓图标, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.41, infoSlotTimeFormat=HH:mm:ss, zoomLevel=1024, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.0, positionY=0.08244505, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=点和轮廓图标, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=方形, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=罗盘, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=底部, showWaypoints=true, info2LabelPosition=顶部, minimapKeyMovementSpeed=0.001, info1LabelPosition=顶部, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=1, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=自定义, fontScale=1.0, info4LabelPosition=底部, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=北, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=轮廓图标, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.0-beta.41, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=night, showCompass=true, showNpcNames=false, mobDisplay=点和轮廓图标, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=矩形, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=罗盘, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=底部, showWaypoints=true, info2LabelPosition=顶部, minimapKeyMovementSpeed=0.001, info1LabelPosition=顶部, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=右上, fontScale=1.0, info4LabelPosition=底部, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=北, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=轮廓图标, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.0-beta.41, zoomLevel=1024, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=点和轮廓图标, showHostileNames=false, showSelf=true, locationFormat=xzyv, playerDisplay=轮廓图标, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.41, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showDeleteConfirmation=true, fullscreenDoubleClickToCreate=true, minDistance=4, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.41, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.41, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=6.0.0-beta.41, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=圆形, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=6.0.0-beta.41, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Purist, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=true, glErrorChecking=false, autoMapPoll=2000}
-[20:56:40] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 474.81ms
-[20:56:42] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 74
-[20:56:42] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1709.19ms
-[20:57:12] [Render thread/INFO] [ChatLog] JourneyMap: 按 [J]
-[20:57:12] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[20:57:12] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
-[20:57:12] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
-[20:57:12] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[20:57:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
-[20:57:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
-[20:57:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 3ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\colorpalette.json
-[20:57:12] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\overworld. Memory: 1856MB total, 855MB free 
-[21:43:43] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\minecraft:overworld
-[21:43:43] [JM-task-2/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@6576f3ad
-[21:43:44] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[21:43:44] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
-[21:43:44] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
-[21:43:44] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[21:43:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 5ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
-[21:43:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\colorpalette.json
-[21:43:44] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\the_nether. Memory: 1888MB total, 764MB free 
-[21:44:39] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\minecraft:the_nether
-[21:44:39] [JM-task-5/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@358a311c
-[21:44:40] [Worker-Main-5/WARN] [ImageHolder] Recovered image file: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\the_nether\day\0,-1.png.new
-[21:44:40] [Worker-Main-5/ERROR] [RegionImageHandler] Could not get image from file: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\the_nether\day\0,-1.png: Could not load image: Image not of any known type, or corrupt
-[21:44:40] [IO-Worker-110/WARN] [ImageHolder] Couldn't rename temp file to 0,-1.png
-[21:44:40] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[21:44:40] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
-[21:44:40] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
-[21:44:40] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[21:44:40] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
-[21:44:40] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\colorpalette.json
-[21:44:40] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\overworld. Memory: 1888MB total, 548MB free 
-[21:46:08] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\minecraft:overworld
-[21:46:08] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[21:46:08] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
-[21:46:08] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
-[21:46:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[21:46:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
-[21:46:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\colorpalette.json
-[21:46:08] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\the_nether. Memory: 2048MB total, 300MB free 
-[21:46:17] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\minecraft:the_nether
-[21:46:17] [JM-task-7/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@25f26ffc
-[21:46:18] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[21:46:18] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
-[21:46:18] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
-[21:46:18] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[21:46:18] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
-[21:46:18] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\colorpalette.json
-[21:46:18] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\丐版全物品分类机V2.1\overworld. Memory: 2048MB total, 188MB free 
-[21:46:42] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
-[21:46:42] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Region Images
-[21:46:42] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
-[21:46:42] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\offline\minecraft:overworld
+[14:15:11] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 1780.91ms
+[14:15:13] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 74
+[14:15:13] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1829.98ms
+[14:16:20] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[14:16:21] [Render thread/INFO] [ChatLog] JourneyMap: 按 [J]
+[14:16:21] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:16:21] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[14:16:21] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[14:16:21] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:16:21] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:16:21] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:16:21] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:16:21] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:16:21] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:16:21] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 3ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\刷花机\colorpalette.json
+[14:16:21] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\刷花机\overworld. Memory: 2048MB total, 1053MB free 
+[14:23:23] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[14:23:23] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[14:23:23] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[14:23:23] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\offline\minecraft:overworld
+[14:23:34] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[14:23:37] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:23:37] [Render thread/INFO] [WaypointStore] Loaded 18 waypoints from disk.
+[14:23:37] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:23:37] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:23:37] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:23:37] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:23:37] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 284MB free 
+[14:26:00] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:26:10] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:26:16] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:26:19] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:27:44] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:27:44] [JM-task-3/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@761eff4
+[14:27:45] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:27:45] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:27:45] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:27:45] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:27:45] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:27:45] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:27:45] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 1191MB free 
+[14:29:23] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:29:24] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:29:25] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:29:25] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:29:25] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:29:25] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:29:25] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:29:25] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 976MB free 
+[14:29:38] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:29:43] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:29:46] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:29:54] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:29:55] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:29:55] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[14:29:55] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:29:55] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:29:55] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:29:55] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:29:55] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 739MB free 
+[14:30:10] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:21] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:22] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:33] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:38] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:30:39] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:30:39] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:30:39] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:30:39] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:30:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:30:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:30:39] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 607MB free 
+[14:30:44] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:30:50] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:52] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:53] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:30:55] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:30:56] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:30:56] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[14:30:56] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:30:56] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:30:56] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:30:56] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:30:56] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 277MB free 
+[14:31:04] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:31:09] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:31:09] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:32:07] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:32:08] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:32:08] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[14:32:08] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:32:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:32:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:32:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:32:08] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 965MB free 
+[14:32:21] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:32:21] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:32:26] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:32:26] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:32:26] [Render thread/INFO] [WaypointStore] Loaded 21 waypoints from disk.
+[14:32:26] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:32:26] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:32:26] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:32:26] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:32:26] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 356MB free 
+[14:33:29] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:33:29] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:33:29] [Render thread/INFO] [WaypointStore] Loaded 21 waypoints from disk.
+[14:33:29] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:33:29] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:33:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:33:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:33:29] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 247MB free 
+[14:34:15] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:34:15] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:34:15] [Render thread/INFO] [WaypointStore] Loaded 21 waypoints from disk.
+[14:34:15] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:34:15] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:34:15] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 8ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:34:15] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:34:15] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 572MB free 
+[14:34:30] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:34:30] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:34:30] [Render thread/INFO] [WaypointStore] Loaded 21 waypoints from disk.
+[14:34:30] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:34:30] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:34:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:34:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:34:30] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 918MB free 
+[14:35:12] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:35:13] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:35:17] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:35:23] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:35:53] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:35:58] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:36:04] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:36:06] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:36:46] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:36:46] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:36:46] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:36:46] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:36:46] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:36:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:36:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:36:46] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 794MB free 
+[14:37:59] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:38:02] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:38:04] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:38:06] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:38:13] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:38:42] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:38:43] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:38:43] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:38:43] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:38:43] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:38:43] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:38:43] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:38:43] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 972MB free 
+[14:39:28] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:39:29] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:39:29] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:39:29] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:39:29] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:39:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:39:29] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:39:29] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 631MB free 
+[14:39:42] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:39:43] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:39:43] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:39:43] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:39:43] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:39:43] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:39:43] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:39:43] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 366MB free 
+[14:39:51] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:39:51] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:39:51] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:39:51] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:39:51] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:39:51] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:39:51] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:39:51] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 704MB free 
+[14:40:17] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:40:17] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:40:17] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:40:17] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:40:17] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:40:17] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:40:17] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:40:17] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 439MB free 
+[14:41:00] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:41:02] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:41:02] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:41:02] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:41:02] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:41:02] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:41:02] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:41:02] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 317MB free 
+[14:42:17] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:42:18] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:42:18] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:42:18] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:42:18] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:42:18] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:42:18] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:42:18] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 539MB free 
+[14:44:00] [Netty Client IO #11/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[14:44:00] [Netty Client IO #11/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[14:44:00] [Netty Client IO #11/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[14:44:00] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:44:00] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[14:44:00] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[14:49:11] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[14:49:12] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:49:12] [Render thread/INFO] [WaypointStore] Loaded 22 waypoints from disk.
+[14:49:12] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:49:12] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:49:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:49:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:49:12] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 711MB free 
+[14:49:50] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:49:53] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:49:55] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:49:57] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:49:58] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:04] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:04] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:05] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:05] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:06] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:06] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:07] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:07] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:08] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:08] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:08] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:15] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:29] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:50:34] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$edk000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ejk000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[14:50:35] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[14:50:54] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:50:54] [JM-task-24/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@e1d77f
+[14:50:54] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:50:54] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:50:54] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:50:54] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:50:54] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:50:54] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:50:54] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 394MB free 
+[14:51:05] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:51:06] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:51:06] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:51:06] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:51:06] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:51:06] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:51:06] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:51:06] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 701MB free 
+[14:53:03] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:53:04] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:53:04] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:53:04] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:53:04] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:53:04] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:53:04] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:53:04] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 594MB free 
+[14:54:24] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:54:24] [JM-task-27/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@673358f7
+[14:54:24] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:54:24] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:54:24] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:54:24] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:54:24] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:54:24] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:54:24] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 374MB free 
+[14:55:25] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:55:25] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:55:26] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:55:26] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:55:26] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:55:26] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:55:26] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:55:26] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 495MB free 
+[14:56:01] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[14:56:02] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:56:02] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:56:02] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:56:02] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:56:02] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:56:02] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:56:02] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 655MB free 
+[14:56:11] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[14:56:11] [JM-task-30/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@7598ca94
+[14:56:12] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:56:12] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:56:12] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:56:12] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:56:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:56:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:56:12] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_end. Memory: 2048MB total, 368MB free 
+[14:57:21] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_end
+[14:57:22] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[14:57:22] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[14:57:22] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[14:57:22] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[14:57:22] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[14:57:22] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[14:57:22] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 370MB free 
+[15:03:54] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:03:55] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:03:55] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:03:55] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:03:55] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:03:55] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:03:55] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:03:55] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 394MB free 
+[15:04:33] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:04:34] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:04:34] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:04:34] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:04:34] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:04:34] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:04:34] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:04:34] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 563MB free 
+[15:12:29] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:12:30] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:12:30] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:12:30] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:12:30] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:12:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 3ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:12:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:12:30] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 444MB free 
+[15:12:43] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:12:44] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:12:44] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:12:44] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:12:44] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:12:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:12:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:12:44] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 648MB free 
+[15:15:08] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:15:09] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:15:09] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:15:09] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:15:09] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:15:09] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:15:09] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:15:09] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 486MB free 
+[15:16:02] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:16:02] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:16:02] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:16:02] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:16:02] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:16:02] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:16:02] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:16:02] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 664MB free 
+[15:20:35] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:20:35] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:20:35] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:20:35] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:20:36] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:20:36] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:20:39] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:20:39] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:20:39] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:20:39] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:20:39] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:20:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 3ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:20:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:20:39] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 512MB free 
+[15:20:48] [Netty Client IO #6/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:20:48] [Netty Client IO #6/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:20:48] [Netty Client IO #6/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:20:48] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:20:48] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:20:48] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:20:51] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:20:52] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:20:52] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:20:52] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:20:52] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:20:52] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:20:52] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:20:52] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 419MB free 
+[15:20:56] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:20:56] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:20:56] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:20:56] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:20:56] [JM-task-40/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@3ee0bbaa
+[15:20:57] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:20:57] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:20:59] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:20:59] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:20:59] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:20:59] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:20:59] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:20:59] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:20:59] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:20:59] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 296MB free 
+[15:22:26] [Netty Client IO #2/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:22:26] [Netty Client IO #2/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:22:26] [Netty Client IO #2/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:22:26] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:22:28] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:22:28] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:22:29] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:22:31] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:22:31] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:22:31] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:22:31] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:22:31] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:22:31] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:22:31] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 368MB free 
+[15:22:32] [Netty Client IO #8/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:22:32] [Netty Client IO #8/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:22:32] [Netty Client IO #8/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:22:32] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:22:32] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:22:32] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:22:35] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:22:36] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:22:36] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:22:36] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:22:36] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:22:36] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:22:36] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:22:36] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 405MB free 
+[15:22:44] [Netty Client IO #14/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:22:44] [Netty Client IO #14/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:22:44] [Netty Client IO #14/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:22:44] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:22:45] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:22:45] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:22:47] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:22:47] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:22:47] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:22:47] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:22:47] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:22:47] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:22:47] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:22:47] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 355MB free 
+[15:23:10] [Netty Client IO #4/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:23:10] [Netty Client IO #4/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:23:10] [Netty Client IO #4/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:23:10] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:23:11] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:23:11] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:23:13] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:23:14] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:23:14] [Render thread/INFO] [WaypointStore] Loaded 19 waypoints from disk.
+[15:23:14] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:23:14] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:23:14] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:23:14] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:23:15] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 349MB free 
+[15:25:44] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[15:25:55] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:25:56] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:25:56] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:25:56] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:25:56] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:25:56] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:25:56] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:25:56] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 523MB free 
+[15:26:59] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:27:00] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:27:00] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:27:00] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:27:00] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:27:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:27:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:27:00] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 313MB free 
+[15:27:03] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:27:03] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:27:03] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:27:03] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:27:03] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:27:03] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:27:03] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:27:03] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_end. Memory: 2048MB total, 369MB free 
+[15:28:44] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_end
+[15:28:44] [JM-task-49/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@6b0734a4
+[15:28:44] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:28:44] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:28:44] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:28:44] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:28:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:28:44] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:28:44] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 297MB free 
+[15:29:00] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:29:00] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:29:00] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:29:00] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:29:00] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:29:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:29:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:29:00] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 469MB free 
+[15:29:06] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:29:07] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:29:07] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:29:07] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:29:07] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:29:07] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:29:07] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:29:07] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 351MB free 
+[15:39:32] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:39:33] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:39:33] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:39:33] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:39:33] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:39:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 4ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:39:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:39:33] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 322MB free 
+[15:39:59] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:40:00] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:40:00] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:40:00] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:40:00] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:40:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:40:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:40:00] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 466MB free 
+[15:40:08] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:40:08] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:40:08] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:40:08] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:40:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:40:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:40:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:40:08] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_end. Memory: 2048MB total, 263MB free 
+[15:41:23] [Netty Client IO #10/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:41:23] [Netty Client IO #10/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:41:23] [Netty Client IO #10/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:41:24] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_end
+[15:41:25] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:41:25] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:41:27] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:41:27] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:41:27] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:41:27] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:41:27] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:41:27] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:41:27] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:41:27] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_end. Memory: 2048MB total, 322MB free 
+[15:41:36] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[15:41:36] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[15:41:36] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[15:41:36] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_end
+[15:41:36] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:41:36] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:41:39] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[15:41:40] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:41:40] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:41:40] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:41:40] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:41:40] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:41:40] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:41:40] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_end. Memory: 2048MB total, 459MB free 
+[15:42:48] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_end
+[15:42:49] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:42:49] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:42:49] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:42:49] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:42:49] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:42:49] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:42:49] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 402MB free 
+[15:53:05] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:53:06] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:53:06] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:53:06] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:53:06] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:53:06] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:53:06] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:53:06] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 314MB free 
+[15:53:38] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[15:53:39] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:53:39] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:53:39] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:53:39] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:53:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:53:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:53:39] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 239MB free 
+[15:53:42] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:53:42] [JM-task-60/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@5baf1d84
+[15:53:42] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:53:42] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:53:42] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:53:42] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:53:42] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:53:42] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:53:42] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_end. Memory: 2048MB total, 322MB free 
+[15:56:12] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_end
+[15:56:12] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:56:12] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:56:12] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:56:12] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:56:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:56:12] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:56:12] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 352MB free 
+[15:59:42] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[15:59:42] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[15:59:42] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[15:59:42] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[15:59:42] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:59:42] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[15:59:42] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[15:59:42] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 362MB free 
+[16:00:45] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[16:00:46] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[16:00:46] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[16:00:46] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[16:00:46] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:00:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[16:00:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[16:00:46] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 288MB free 
+[16:05:44] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[16:05:44] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[16:05:45] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[16:05:45] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[16:05:45] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:05:45] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[16:05:45] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[16:05:45] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 265MB free 
+[16:10:32] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[16:10:33] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[16:10:33] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[16:10:33] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[16:10:33] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:10:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[16:10:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[16:10:33] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 221MB free 
+[16:14:03] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[16:14:03] [JM-task-68/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@45f8092e
+[16:14:03] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[16:14:03] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[16:14:03] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[16:14:03] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:14:03] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[16:14:03] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[16:14:03] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 199MB free 
+[16:15:06] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[16:15:08] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[16:15:08] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[16:15:08] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[16:15:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:15:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[16:15:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[16:15:08] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 281MB free 
+[16:30:29] [Netty Client IO #6/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[16:30:29] [Netty Client IO #6/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[16:30:29] [Netty Client IO #6/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[16:30:30] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[16:30:30] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[16:30:30] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[16:30:43] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[16:30:43] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[16:30:43] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[16:30:43] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:30:43] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[16:30:43] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\刷花机\colorpalette.json
+[16:30:43] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\sp\刷花机\overworld. Memory: 2048MB total, 190MB free 
+[16:32:16] [Netty Local Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[16:32:16] [Netty Local Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[16:32:16] [Netty Local Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[16:32:16] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\offline\minecraft:overworld

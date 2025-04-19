@@ -271,7 +271,7 @@
     "infoEntitiesClientWorld": false,
     "infoTileEntities": false,
     "infoLightLevel": true,
-    "infoBiome": false,
+    "infoBiome": true,
     "infoBiomeRegistryName": false,
     "infoDistance": false,
     "infoLoadedChunksCount": false,
