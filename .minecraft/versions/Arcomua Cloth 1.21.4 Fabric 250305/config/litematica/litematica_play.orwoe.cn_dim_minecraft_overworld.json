@@ -18,10 +18,18 @@
         "enabled": false,
         "enable_render": true,
         "render_enclosing_box": false,
-        "locked": false,
+        "locked": true,
         "locked_coords": 0,
-        "bb_color": 16757504,
+        "bb_color": 8404597,
         "verifier_type": "all",
+        "selected_region": "Unnamed",
+        "material_list": {
+          "type": "all",
+          "sort_criteria": "COUNT_TOTAL",
+          "sort_reverse": false,
+          "hide_available": false,
+          "multiplier": 1
+        },
         "placements": [
           {
             "name": "Unnamed",
@@ -40,7 +48,8 @@
               "ignore_entities": false
             }
           }
-        ]
+        ],
+        "syncmatica_uuid": "a052f288-61b4-4da3-a6e1-3406c1ad7ac7"
       }
     ],
     "selected": 0,
@@ -53,7 +62,7 @@
     "axis": "y",
     "layer_single": 0,
     "layer_above": 0,
-    "layer_below": 203,
+    "layer_below": 67,
     "layer_range_min": 0,
     "layer_range_max": 0,
     "hotkey_range_min": false,

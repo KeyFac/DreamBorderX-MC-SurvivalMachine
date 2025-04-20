@@ -33,6 +33,14 @@
         "order": 4,
         "isDefault": true,
         "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:kelp\",Properties:{age:\"0\"}}",
+        "name": "º£´ø",
+        "color": "#00c300",
+        "order": 5,
+        "isDefault": true,
+        "active": true
       }
     ],
     "order": 1,
