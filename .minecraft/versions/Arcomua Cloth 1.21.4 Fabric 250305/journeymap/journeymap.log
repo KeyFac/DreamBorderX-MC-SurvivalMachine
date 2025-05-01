@@ -1,9 +1,9 @@
-[16:11:03] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[16:11:03] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[16:11:03] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
-[16:11:03] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
-[16:11:03] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[16:11:03] [Render thread/INFO] [?] Version: JourneyMap 1.21.4-6.0.0-beta.41, built with fabric 0.110.5+1.21.4
+[17:06:37] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[17:06:37] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[17:06:37] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[17:06:37] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
+[17:06:37] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[17:06:37] [Render thread/INFO] [?] Version: JourneyMap 1.21.4-6.0.0-beta.41, built with fabric 0.110.5+1.21.4
 fabric: 0.16.9
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
 Features: 
@@ -21,6 +21,325 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.41, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showDeleteConfirmation=true, fullscreenDoubleClickToCreate=true, minDistance=4, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.41, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.41, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=6.0.0-beta.41, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=Ô²ÐÎ, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=6.0.0-beta.41, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Purist, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=true, glErrorChecking=false, autoMapPoll=2000}
-[16:11:03] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 346.45ms
-[16:11:05] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 74
-[16:11:05] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1508.31ms
+[17:06:37] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 288.02ms
+[17:06:38] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 74
+[17:06:38] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1343.83ms
+[17:10:04] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[17:10:09] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[17:10:10] [Render thread/INFO] [ChatLog] JourneyMap: °´ [J]
+[17:10:10] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:10:10] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[17:10:10] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:10:10] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:10:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:10:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 10ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:10:10] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 1179MB free 
+[17:11:02] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:05] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:07] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[17:11:07] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[17:11:07] [Netty Client IO #1/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[17:11:07] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\Minecraft~_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[17:11:07] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[17:11:07] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[17:11:29] [Render thread/INFO] [JourneymapClient] World UID is set to: ip_play.orwoe.cn/223.82.2.153:25565
+[17:11:30] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:11:30] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[17:11:30] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[17:11:30] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:30] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:30] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:30] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:30] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:11:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:11:30] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:11:30] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 1184MB free 
+[17:11:38] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:44] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:11:45] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:11:53] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:11:58] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:12:03] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:12:05] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:13:10] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[17:13:10] [JM-task-5/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@24462d3d
+[17:13:10] [Worker-Main-12/WARN] [ImageHolder] Recovered image file: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld\day\0,-1.png.new
+[17:13:10] [Worker-Main-11/WARN] [ImageHolder] Recovered image file: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld\day\0,0.png.new
+[17:13:10] [Worker-Main-11/ERROR] [RegionImageHandler] Could not get image from file: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld\day\0,0.png: Could not load image: Image not of any known type, or corrupt
+[17:13:10] [Worker-Main-12/ERROR] [RegionImageHandler] Could not get image from file: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld\day\0,-1.png: Could not load image: Image not of any known type, or corrupt
+[17:13:10] [IO-Worker-12/WARN] [ImageHolder] Couldn't rename temp file to 0,0.png
+[17:13:10] [IO-Worker-16/WARN] [ImageHolder] Couldn't rename temp file to 0,-1.png
+[17:13:10] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:13:10] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from disk.
+[17:13:10] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:13:10] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:13:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:13:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:13:10] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 944MB free 
+[17:14:08] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[17:14:08] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:14:08] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from disk.
+[17:14:08] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:14:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:14:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:14:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:14:08] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 1146MB free 
+[17:23:06] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:23:09] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:25:09] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:25:11] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:25:22] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:25:27] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:25:31] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:25:35] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:30:50] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:31:29] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:32:15] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[17:32:15] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:32:15] [Render thread/INFO] [WaypointStore] Loaded 2 waypoints from disk.
+[17:32:15] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:32:15] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:32:15] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:32:15] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:32:15] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 883MB free 
+[17:32:19] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:32:23] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:32:27] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:33:00] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[17:33:00] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:33:00] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from disk.
+[17:33:00] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:33:00] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:33:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:33:00] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:33:00] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 1037MB free 
+[17:33:09] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "screen" is null
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.modScreens(ScreenEventHandler.java:162)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:154)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.allowableDrawScreens(ScreenEventHandler.java:148)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:62)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:125)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen(class_757.java:4413)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$ecn000$fabric-screen-api-v1$onRenderScreen$130(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ein000$immediatelyfast$screenBatching(class_757.java:5920)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:551)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1341)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:922)
+	at knot//net.minecraft.client.main.Main.main(Main.java:267)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[17:33:10] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:33:36] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:33:38] [Render thread/INFO] [ClientWaypointDAO] Saving WaypointData.dat async:true
+[17:37:51] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[17:37:51] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:37:51] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from disk.
+[17:37:51] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:37:51] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:37:51] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:37:51] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:37:51] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\the_nether. Memory: 2048MB total, 800MB free 
+[17:38:35] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:the_nether
+[17:38:35] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[17:38:35] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from disk.
+[17:38:35] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[17:38:35] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[17:38:35] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\colorpalette.json
+[17:38:35] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\colorpalette.json
+[17:38:35] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\overworld. Memory: 2048MB total, 610MB free 
+[17:44:10] [Netty Client IO #12/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[17:44:10] [Netty Client IO #12/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[17:44:10] [Netty Client IO #12/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[17:44:11] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\journeymap\data\mp\ForstCraft_ip_play~orwoe~cn~223~82~2~153~25565\minecraft:overworld
+[17:44:11] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[17:44:11] [Render thread/INFO] [JourneymapClient] World UID is set to: null

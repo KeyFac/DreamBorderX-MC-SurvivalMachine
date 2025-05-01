@@ -1,25 +1,25 @@
-[16:10:05] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[16:10:05] [ForkJoinPool-1-worker-3/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+[17:05:44] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[17:05:44] [ForkJoinPool-1-worker-6/WARN]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 124
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[16:10:05] [ForkJoinPool-1-worker-6/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+[17:05:45] [ForkJoinPool-1-worker-8/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[16:10:05] [ForkJoinPool-1-worker-6/WARN]: Mod com_github_oryxel_cubeconverter uses the version 25bc6ce1b1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '25bc6ce1b1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[16:10:05] [ForkJoinPool-1-worker-4/WARN]: Mod org_cloudburstmc_netty_netty-transport-raknet uses the version 1.0.0.CR3-SNAPSHOT which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'CR3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[16:10:05] [main/INFO]: Dependencies overridden for minecraft, lambdynlights, fabricloader, polytone
-[16:10:05] [main/WARN]: Warnings were found!
+[17:05:45] [ForkJoinPool-1-worker-8/WARN]: Mod com_github_oryxel_cubeconverter uses the version 25bc6ce1b1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '25bc6ce1b1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:05:45] [ForkJoinPool-1-worker-2/WARN]: Mod org_cloudburstmc_netty_netty-transport-raknet uses the version 1.0.0.CR3-SNAPSHOT which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'CR3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:05:45] [main/INFO]: Dependencies overridden for minecraft, lambdynlights, fabricloader, polytone
+[17:05:45] [main/WARN]: Warnings were found!
  - 模组 'XPlus ContingameIME' (ingameime) 1.2.1-xplus-1.21.3 建议安装 satin 的 任意版本，但没有安装它！
 	 - 为了最佳体验，您应该安装 satin 的 任意版本。
  - 'Minecraft' (minecraft) 1.21.4 建议安装 Fabulously Optimized 的 5.12.0 以上任意版本，但没有安装它！
 	 - 为了最佳体验，您应该安装 Fabulously Optimized 的 5.12.0 以上任意版本。
  - 模组 'OptiGUI' (optigui) 2.3.0-beta.7+1.21.2 建议安装 animatica 的 任意版本，但没有安装它！
 	 - 为了最佳体验，您应该安装 animatica 的 任意版本。
-[16:10:05] [main/INFO]: Loading 287 mods:
+[17:05:45] [main/INFO]: Loading 287 mods:
 	- advanced-xray-fabric 21.4.0
 	- alternate-current 1.9.1
 	- appleskin 3.0.6+mc1.21.3
@@ -311,72 +311,72 @@
 	- yosbr 0.1.2
 	- zoomify 2.14.2+1.21.3
 	   \-- com_akuleshov7_ktoml-core-jvm 0.5.2
-[16:10:06] [main/INFO]: Applying default options... (YOSBR)
-[16:10:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Users/Documents/Github/DreamBorderX-MC-SurvivalMachine/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[16:10:06] [main/INFO]: Compatibility level set to JAVA_17
-[16:10:06] [main/INFO]: Compatibility level set to JAVA_21
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[16:10:07] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[16:10:07] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[16:10:07] [main/INFO]: Detected maximum supported ISA target: AVX2
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:10:07] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@15.0.3 (*) (defined in c2me)
-[16:10:07] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[16:10:07] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[16:10:08] [main/INFO]: Preloading Debugify
-[16:10:08] [main/WARN]: Reference map 'deleteworldstotrash.fabric.refmap.json' for deleteworldstotrash.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:10:08] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[16:10:08] [main/INFO]: Loaded configuration file for Lithium: 147 options available, 1 override(s) found
-[16:10:08] [main/INFO]: Iris API installed...
-[16:10:08] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[16:10:08] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
-[16:10:08] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[16:10:09] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
-[16:10:09] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
-[16:10:09] [main/WARN]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net/vulkanmod/config/option/Options)
-[16:10:09] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[16:10:10] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
-[16:10:10] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
-[16:10:10] [main/WARN]: Force disabled MC-59810 because it only applies to OS: MAC
-[16:10:10] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
-[16:10:10] [main/WARN]: Error loading class: net/vulkanmod/gl/GlFramebuffer (java.lang.ClassNotFoundException: net/vulkanmod/gl/GlFramebuffer)
-[16:10:10] [main/WARN]: @Mixin target net.vulkanmod.gl.GlFramebuffer was not found gpu_tape.mixins.json:vulkan.GlFramebufferMixin from mod gpu_tape
-[16:10:10] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/gui/widget/basewidgets/TextFieldWidget (java.lang.ClassNotFoundException: me/shedaniel/rei/impl/client/gui/widget/basewidgets/TextFieldWidget)
-[16:10:10] [main/WARN]: @Mixin target me.shedaniel.rei.impl.client.gui.widget.basewidgets.TextFieldWidget was not found ingameime.fabric.mixins.json:MixinTextFieldWidget from mod ingameime
-[16:10:10] [main/WARN]: Error loading class: com/supermartijn642/core/gui/WidgetContainerScreen (java.lang.ClassNotFoundException: com/supermartijn642/core/gui/WidgetContainerScreen)
-[16:10:10] [main/WARN]: @Mixin target com.supermartijn642.core.gui.WidgetContainerScreen was not found mixins.ipnext.json:MixinSuperMartiJnWidgetScreen from mod inventoryprofilesnext
-[16:10:10] [main/WARN]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev/isxander/controlify/virtualmouse/VirtualMouseHandler)
-[16:10:10] [main/WARN]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
-[16:10:11] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[16:10:11] [main/ERROR]: Failed to load language file assets/debugify/lang/vi_vn.json from F:\GitHub\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\mods\Debugify-1.21.4+1.1.jar.
+[17:05:45] [main/INFO]: Applying default options... (YOSBR)
+[17:05:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Users/Documents/Github/DreamBorderX-MC-SurvivalMachine/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[17:05:46] [main/INFO]: Compatibility level set to JAVA_17
+[17:05:46] [main/INFO]: Compatibility level set to JAVA_21
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:05:46] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:05:46] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[17:05:47] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[17:05:47] [main/INFO]: Detected maximum supported ISA target: AVX2
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:05:47] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@15.0.3 (*) (defined in c2me)
+[17:05:47] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:05:47] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:05:47] [main/INFO]: Preloading Debugify
+[17:05:47] [main/WARN]: Reference map 'deleteworldstotrash.fabric.refmap.json' for deleteworldstotrash.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:05:47] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[17:05:47] [main/INFO]: Loaded configuration file for Lithium: 147 options available, 1 override(s) found
+[17:05:47] [main/INFO]: Iris API installed...
+[17:05:47] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[17:05:47] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[17:05:48] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[17:05:48] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[17:05:48] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:05:48] [main/WARN]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net/vulkanmod/config/option/Options)
+[17:05:48] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[17:05:49] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[17:05:49] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[17:05:49] [main/WARN]: Force disabled MC-59810 because it only applies to OS: MAC
+[17:05:49] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
+[17:05:49] [main/WARN]: Error loading class: net/vulkanmod/gl/GlFramebuffer (java.lang.ClassNotFoundException: net/vulkanmod/gl/GlFramebuffer)
+[17:05:49] [main/WARN]: @Mixin target net.vulkanmod.gl.GlFramebuffer was not found gpu_tape.mixins.json:vulkan.GlFramebufferMixin from mod gpu_tape
+[17:05:49] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/gui/widget/basewidgets/TextFieldWidget (java.lang.ClassNotFoundException: me/shedaniel/rei/impl/client/gui/widget/basewidgets/TextFieldWidget)
+[17:05:49] [main/WARN]: @Mixin target me.shedaniel.rei.impl.client.gui.widget.basewidgets.TextFieldWidget was not found ingameime.fabric.mixins.json:MixinTextFieldWidget from mod ingameime
+[17:05:49] [main/WARN]: Error loading class: com/supermartijn642/core/gui/WidgetContainerScreen (java.lang.ClassNotFoundException: com/supermartijn642/core/gui/WidgetContainerScreen)
+[17:05:49] [main/WARN]: @Mixin target com.supermartijn642.core.gui.WidgetContainerScreen was not found mixins.ipnext.json:MixinSuperMartiJnWidgetScreen from mod inventoryprofilesnext
+[17:05:49] [main/WARN]: Error loading class: dev/isxander/controlify/virtualmouse/VirtualMouseHandler (java.lang.ClassNotFoundException: dev/isxander/controlify/virtualmouse/VirtualMouseHandler)
+[17:05:49] [main/WARN]: @Mixin target dev.isxander.controlify.virtualmouse.VirtualMouseHandler was not found mixins.ipnext.json:MixinVirtualMouseHandler from mod inventoryprofilesnext
+[17:05:50] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[17:05:50] [main/ERROR]: Failed to load language file assets/debugify/lang/vi_vn.json from F:\GitHub\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\mods\Debugify-1.21.4+1.1.jar.
 com.google.gson.JsonSyntaxException: java.io.EOFException: End of input at line 78 column 1 path $.debugify.fix_explanation.mc-224729
 	at knot/com.google.gson.Gson.fromJson(Gson.java:1370) ~[gson-2.11.0.jar:?]
 	at knot/com.google.gson.Gson.fromJson(Gson.java:1262) ~[gson-2.11.0.jar:?]
@@ -452,8 +452,8 @@ Caused by: java.io.EOFException: End of input at line 78 column 1 path $.debugif
 	at knot/com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1144) ~[gson-2.11.0.jar:?]
 	at knot/com.google.gson.Gson.fromJson(Gson.java:1361) ~[gson-2.11.0.jar:?]
 	... 64 more
-[16:10:11] [main/ERROR]: Failed to load language file assets/particlerain/lang/uk_ua.json from F:\GitHub\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\mods\particle-rain-3.2.0.jar.
-[16:10:11] [main/ERROR]: Failed to load language file assets/minecraft/lang/deprecated.json from F:\GitHub\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\.fabric\remappedJars\minecraft-1.21.4-0.16.10\client-intermediary.jar.
+[17:05:50] [main/ERROR]: Failed to load language file assets/particlerain/lang/uk_ua.json from F:\GitHub\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\mods\particle-rain-3.2.0.jar.
+[17:05:50] [main/ERROR]: Failed to load language file assets/minecraft/lang/deprecated.json from F:\GitHub\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\.fabric\remappedJars\minecraft-1.21.4-0.16.10\client-intermediary.jar.
 java.lang.IllegalStateException: Array must have size 1, but has size 241
 	at knot/com.google.gson.JsonArray.getAsSingleElement(JsonArray.java:240) ~[gson-2.11.0.jar:?]
 	at knot/com.google.gson.JsonArray.getAsString(JsonArray.java:266) ~[gson-2.11.0.jar:?]
@@ -521,300 +521,305 @@ java.lang.IllegalStateException: Array must have size 1, but has size 241
 	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) [fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.10.jar:?]
-[16:10:12] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[16:10:12] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[16:10:12] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[16:10:12] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[16:10:12] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[16:10:12] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
-[16:10:12] [main/WARN]: Error loading class: net/coderbot/iris/uniforms/WorldTimeUniforms (java.lang.ClassNotFoundException: net/coderbot/iris/uniforms/WorldTimeUniforms)
-[16:10:12] [main/WARN]: Error loading class: org/anti_ad/mc/ipnext/event/AutoRefillHandler$ItemSlotMonitor (java.lang.ClassNotFoundException: org/anti_ad/mc/ipnext/event/AutoRefillHandler$ItemSlotMonitor)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
-[16:10:13] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
-[16:10:13] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
-[16:10:13] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
-[16:10:13] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[16:10:14] [main/INFO]: Searching for graphics cards...
-[16:10:14] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce GTX 1650', adapterType=0x0000030B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_c81552b0afd57b24\nvoglv64.dll', openglIcdVersion=31.0.15.5186}
-[16:10:14] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
-[16:10:14] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[16:10:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[16:10:15] [main/INFO]: Mixing gui.ScreenMixin from chatpatches.mixins.json into net.minecraft.class_437
-[16:10:16] [main/WARN]: Method overwrite conflict for method_20813 in stfu.mixins.json:ThreadExecutorMixin from mod stfu, previously written by dynamic_fps.impl.mixin.bugfix.BlockableEventLoopMixin. Skipping method.
-[16:10:16] [main/WARN]: @ModifyConstant conflict. Skipping rrls.mixins.json:LoadingOverlayMixin from mod rrls->@ModifyConstant::rrls$changeAnimationSpeed(F)F with priority 1000, already redirected by dark-loading-screen.mixins.json:SplashOverlayMixin from mod dark-loading-screen->@ModifyConstant::getFadeOutTime(F)F with priority 1000
-[16:10:16] [main/WARN]: @ModifyConstant conflict. Skipping rrls.mixins.json:LoadingOverlayMixin from mod rrls->@ModifyConstant::rrls$changeAnimationSpeed(F)F with priority 1000, already redirected by dark-loading-screen.mixins.json:SplashOverlayMixin from mod dark-loading-screen->@ModifyConstant::getFadeInTime(F)F with priority 1000
-[16:10:17] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 973 milliseconds
-[16:10:17] [main/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:entity.MixinClientPlayerEntity from mod tweakeroo->@Redirect::onDoesGuiPauseGame(Lnet/minecraft/class_437;)Z with priority 990, already redirected by stfu.mixins.json:ClientPlayerEntityMixin from mod stfu->@Redirect::tickNausea(Lnet/minecraft/class_437;)Z with priority 1000
-[16:10:18] [main/WARN]: Mixin stendhal.mixins.json:ChatScreenMixin from mod stendhal has multiple constructors, <init>(Lnet/minecraft/class_2561;)V was selected
-[16:10:18] [main/INFO]: Mixing gui.ChatScreenMixin from chatpatches.mixins.json into net.minecraft.class_408
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$filterMessages$35(Ljava/lang/String;Lnet/minecraft/class_303;)Z to mdb1008b$chatpatches$lambda$filterMessages$35$9 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$resetCopyMenu$34(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$resetCopyMenu$34$a in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$33(Lobro1961/chatpatches/gui/MenuButtonWidget;)Z to mdb1008b$chatpatches$lambda$loadCopyMenu$33$b in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$32(Lobro1961/chatpatches/gui/MenuButtonWidget;)Z to mdb1008b$chatpatches$lambda$loadCopyMenu$32$c in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$31(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$loadCopyMenu$31$d in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$30(Ljava/lang/String;)Ljava/lang/String; to mdb1008b$chatpatches$lambda$loadCopyMenu$30$e in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$29(Ljava/lang/String;Lnet/minecraft/class_303;)Z to mdb1008b$chatpatches$lambda$loadCopyMenu$29$f in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$isMouseOverCopyMenu$28(DDLobro1961/chatpatches/gui/MenuButtonWidget;)Z to mdb1008b$chatpatches$lambda$isMouseOverCopyMenu$28$10 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$mouseMoved$27(DDLobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$mouseMoved$27$11 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$registerClickEvents$26(DDILobro1961/chatpatches/gui/MenuButtonWidget;)Z to mdb1008b$chatpatches$lambda$registerClickEvents$26$12 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$registerClickEvents$25(DDILobro1961/chatpatches/gui/MenuButtonWidget;)Z to mdb1008b$chatpatches$lambda$registerClickEvents$25$13 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$registerClickEvents$24(DDILobro1961/chatpatches/gui/MenuButtonWidget;)Z to mdb1008b$chatpatches$lambda$registerClickEvents$24$14 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$renderSearchSettingsAndCopyMenu$23(Lnet/minecraft/class_332;IIFLobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$renderSearchSettingsAndCopyMenu$23$15 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$renderSearchSettingsAndCopyMenu$22(Lnet/minecraft/class_332;IIFLobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$renderSearchSettingsAndCopyMenu$22$16 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$renderSearchSettingsAndCopyMenu$21(Lnet/minecraft/class_332;IIFLobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$renderSearchSettingsAndCopyMenu$21$17 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$20(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$initSearchStuff$20$18 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$19(ILobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$initSearchStuff$19$19 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$18(Lobro1961/chatpatches/gui/MenuButtonWidget;)I to mdb1008b$chatpatches$lambda$initSearchStuff$18$1a in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$17(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to mdb1008b$chatpatches$lambda$initSearchStuff$17$1b in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$16()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$16$1c in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$15()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$15$1d in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$14()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$14$1e in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$13()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$13$1f in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$12()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$12$20 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$11()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$11$21 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$10()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$10$22 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$9()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$9$23 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$8(Ljava/lang/String;)V to mdb1008b$chatpatches$lambda$initSearchStuff$8$24 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$7()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$7$25 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$6()Ljava/lang/String; to mdb1008b$chatpatches$lambda$initSearchStuff$6$26 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$5(Ljava/lang/String;Ljava/lang/Integer;)Lnet/minecraft/class_4185; to mdb1008b$chatpatches$lambda$initSearchStuff$5$27 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$4(Lobro1961/chatpatches/config/Config$Setting;Lnet/minecraft/class_2561;Lnet/minecraft/class_4185;)V to mdb1008b$chatpatches$lambda$initSearchStuff$4$28 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$3(Ljava/lang/String;)V to mdb1008b$chatpatches$lambda$initSearchStuff$3$29 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$2(Lnet/minecraft/class_4185;)V to mdb1008b$chatpatches$lambda$initSearchStuff$2$2a in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$1(Lnet/minecraft/class_4185;)V to mdb1008b$chatpatches$lambda$initSearchStuff$1$2b in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:18] [main/INFO]: Renaming synthetic method lambda$static$0(Ljava/lang/Integer;)Lnet/minecraft/class_2561; to mdb1008b$chatpatches$lambda$static$0$2c in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
-[16:10:21] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
-[16:10:21] [main/WARN]: Method overwrite conflict for getClimateSettings in polytone-common.mixins.json:accessor.BiomeAccessor from mod polytone, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
-[16:10:21] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
-[16:10:26] [main/INFO]: Mixing security.ClickEvent$ActionMixin from chatpatches.mixins.json into net.minecraft.class_2558$class_2559
-[16:10:27] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:10:27] [Render thread/INFO]: Setting user: KeyFac
-[16:10:27] [Render thread/INFO]: BetterPingDisplay mod loaded
-[16:10:27] [Render thread/INFO]: ChatAnimation initialized!
-[16:10:27] [Render thread/INFO]: Loading Collective version 7.93.
-[16:10:27] [Render thread/INFO]: Enabled 10 bug fixes: [MC-577, MC-22882, MC-59810, MC-89146, MC-90683, MC-112730, MC-122477, MC-199467, MC-237493, MC-263865]
-[16:10:27] [Render thread/INFO]: Successfully Debugify'd your game!
-[16:10:27] [TISCM Mapping/INFO]: Yarn mapping file yarn-1.21.4+build.8-v2.tiny loaded
-[16:10:27] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:MixinServerPlayNetworkHandler from mod tweakeroo->@Redirect::tweakeroo_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005, already redirected by mixins.litematica.json:MixinServerPlayNetworkHandler from mod litematica->@Redirect::litematica_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1010
-[16:10:27] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[16:10:28] [Render thread/INFO]: ping & connect fast!
-[16:10:28] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:10:28] [ForkJoinPool.commonPool-worker-1/INFO]: Loading translations...
-[16:10:28] [ForkJoinPool.commonPool-worker-1/INFO]: Registering protocols...
-[16:10:28] [Render thread/INFO]: Initializing ServerSide Packet Registries
-[16:10:28] [Render thread/INFO]: Compression will use Java, encryption will use Java
-[16:10:28] [Render thread/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[16:10:29] [Render thread/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[16:10:29] [Render thread/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[16:10:29] [Render thread/INFO]: litematica_printer-1.21.4-3.2.1 initialized.
-[16:10:29] [Render thread/INFO]: MidnightLib detected!
-[16:10:29] [Render thread/INFO]: Make Bubbles Pop by Tschipcraft initialized!
-[16:10:29] [Render thread/WARN]: Signature is missing
-[16:10:29] [Render thread/INFO]: Modern UI common config loaded/reloaded
-[16:10:29] [Render thread/INFO]: Initialized Modern UI
-[16:10:29] [Render thread/INFO]: [STDOUT]: found type, is TWO
-[16:10:29] [Render thread/INFO]: [STDOUT]: [Modpack Update Checker] Loaded configuration file.
-[16:10:29] [ForkJoinPool.commonPool-worker-1/INFO]: Started resource pack HTTP server on http://127.0.0.1:6058/
-[16:10:29] [ForkJoinPool.commonPool-worker-1/INFO]: ViaVersion detected lowest supported version by the proxy: c0.0.15a-1 (0)
-[16:10:29] [ForkJoinPool.commonPool-worker-1/INFO]: Highest supported version by the proxy: 1.21.4 (769)
-[16:10:29] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:10:32] [Render thread/INFO]: [STDOUT]: Fetching available hotfixes...
-[16:10:33] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor.
-[16:10:34] [Render thread/INFO]: [STDERR]: <html> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDERR]: <head><title>404 Not Found</title></head> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDERR]: <body> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDERR]: <center><h1>404 Not Found</h1></center> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDERR]: <hr><center>nginx/1.22.1</center> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDERR]: </body> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDERR]: </html> can't be hotfixed!
-[16:10:34] [Render thread/INFO]: [STDOUT]: Found 0 hotfixes in 1973 ms
-[16:10:34] [Render thread/INFO]: Mixing security.CPNHMixin from chatpatches.mixins.json into net.minecraft.class_634
-[16:10:34] [Render thread/INFO]: Loading Noisium.
-[16:10:34] [Render thread/INFO]: Packet Fixer has been initialized successfully
-[16:10:35] [Render thread/INFO]: [Simple Menu] Initiating.
-[16:10:35] [Render thread/INFO]: Creating asynchronous mapping cache executor...
-[16:10:35] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
-[16:10:35] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (18 hour(s) ago, refresh in 30 hour(s))
-[16:10:35] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.4+build.8 are already downloaded
-[16:10:35] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 2ms)
-[16:10:35] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
-[16:10:35] [Render thread/INFO]: [Stendhal] Initializing
-[16:10:35] [Render thread/INFO]: Deserializing Config from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\stfu.json5'
-[16:10:35] [Render thread/INFO]: [STDOUT]: TxniLib onInitialize!!
-[16:10:35] [Render thread/INFO]: [voicechat] Compatibility version 18
-[16:10:35] [Render thread/INFO]: [voicechat] Loading plugins
-[16:10:35] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[16:10:35] [Render thread/INFO]: [voicechat] Initializing plugins
-[16:10:35] [Render thread/INFO]: Initializing Simple Voice Chat integration
-[16:10:35] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[16:10:35] [Render thread/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[16:10:35] [Render thread/INFO]: [voicechat] Successfully registered ViaVersion mappings
-[16:10:35] [Render thread/INFO]: XRay mod has been initialized
-[16:10:35] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[16:10:35] [Render thread/INFO]: [BetterF3] Loading...
-[16:10:35] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 300ms)
-[16:10:35] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
-[16:10:35] [Render thread/INFO]: [BetterF3] All done!
-[16:10:35] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 54ms)
-[16:10:35] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 358ms)
-[16:10:35] [Mappings Cache Thread #1/INFO]:   Classes: 8095
-[16:10:35] [Mappings Cache Thread #1/INFO]:   Methods: 29006
-[16:10:35] [Mappings Cache Thread #1/INFO]:   Fields: 33629
-[16:10:35] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
-[16:10:35] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
-[16:10:35] [Render thread/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
-[16:10:35] [Render thread/INFO]: Trying to read config file...
-[16:10:35] [Render thread/INFO]: A config file was found, loading it..
-[16:10:35] [Render thread/INFO]: Successfully loaded config file.
-[16:10:36] [Render thread/WARN]: disabled "Before Name" rendermode due to incompatibility with modernui
-[16:10:36] [Render thread/INFO]: [Config.read] Loaded config info from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\chatpatches.json'!
-[16:10:36] [Render thread/INFO]: [Config.write] Saved config info to 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\chatpatches.json'!
-[16:10:36] [Render thread/INFO]: [ChatPatches()] Finished setting up!
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-577
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-2025
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-4490
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-7569
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-8187
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-22882
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-30391
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-46766
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-59810
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-69216
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-79545
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-80859
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-88371
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-89146
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-90683
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-93018
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-93384
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-100991
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-105068
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-108948
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-112730
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-116379
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-119417
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-119754
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-121706
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-121903
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-122477
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-122627
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-127970
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-129909
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-132878
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-143474
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-155509
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-159163
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-160095
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-165381
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-176559
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-179072
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-183776
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-183990
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-197260
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-199467
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-200418
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-206922
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-215530
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-215531
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-217716
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-223153
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-224729
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-231097
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-231743
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-232869
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-237493
-[16:10:36] [Render thread/INFO]: Caching description for bug MC-263865
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:netherite_chestplate' and 3 more items!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:diamond_helmet' and 3 more items!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:turtle_helmet'!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:iron_helmet' and 3 more items!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:chainmail_helmet' and 3 more items!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:golden_helmet' and 3 more items!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:leather_helmet' and 3 more items!
-[16:10:36] [Render thread/INFO]: Successfully registered 'minecraft:elytra'!
-[16:10:36] [Render thread/INFO]: Dynamic FPS 3.9.0 active on Fabric!
-[16:10:36] [Render thread/INFO]: Deserializing Config from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\dynamiccrosshair.json5'
-[16:10:36] [Render thread/INFO]: Loading Entity Model Features, breaking your resource packs since April 1st 2023.
-[16:10:36] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
-[16:10:36] [Render thread/INFO]: Loading Entity Texture Features, :)
-[16:10:36] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[16:10:36] [Render thread/INFO]: Registering leaf particles.
-[16:10:36] [Render thread/INFO]: [FastQuit] Initialized
-[16:10:36] [Render thread/INFO]: it is Windows OS! Loading mod...
-[16:10:36] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
-[16:10:36] [Render thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[16:10:36] [Render thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@467c660d for service interface journeymap.api.services.ClientPlatformService
-[16:10:36] [Render thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@27d9232d for service interface journeymap.api.services.CommonPlatformService
-[16:10:36] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack 🚀
-[16:10:36] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
-[16:10:37] [Render thread/INFO]: Modern UI client config loaded/reloaded
-[16:10:37] [Render thread/INFO]: Modern UI text config loaded/reloaded
-[16:10:37] [Render thread/INFO]: Created TextLayoutEngine
-[16:10:37] [Render thread/INFO]: Created MuiFabricApi
-[16:10:37] [Render thread/INFO]: Initialized Modern UI text engine
-[16:10:37] [Render thread/INFO]: Initialized Modern UI client
-[16:10:37] [Render thread/WARN]: Using Cloth Config GUI
-[16:10:37] [Render thread/INFO]: Loaded config :particle_core_config in 209ms
-[16:10:38] [Render thread/INFO]: [STDOUT]: Attempting to invoke putenv("ALSOFT_CONF=cache\rsls-alsoft-10984610717566674527.conf")
-[16:10:38] [Render thread/INFO]: Missing client config file. Creating one...
-[16:10:38] [Render thread/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
-[16:10:38] [Render thread/INFO]: Updating config cache
-[16:10:38] [Render thread/INFO]: Cache updated successfully
-[16:10:38] [Render thread/INFO]: Reloading reverb parameters
-[16:10:38] [Render thread/INFO]: [SSPB] Broken dirt path lighting is best dirt path lighting lol
-[16:10:38] [Render thread/INFO]: Initializing 'TCD Commons API' 3.12.5+fabric-1.21.4 as 'TCDCommonsClient'.
-[16:10:38] [Render thread/INFO]: Registered new config: 'toadlib_config' for 'toadlib'
-[16:10:38] [Render thread/INFO]: Registered maker for 'bool' of class 'boolean'
-[16:10:38] [Render thread/INFO]: Registered maker for 'string' of class 'class java.lang.String'
-[16:10:38] [Render thread/INFO]: Registered maker for 'enum' of class 'class java.lang.Enum'
-[16:10:38] [Render thread/INFO]: Registered maker for 'byte' of class 'byte'
-[16:10:38] [Render thread/INFO]: Registered maker for 'short' of class 'short'
-[16:10:38] [Render thread/INFO]: Registered maker for 'int' of class 'int'
-[16:10:38] [Render thread/INFO]: Registered maker for 'long' of class 'long'
-[16:10:38] [Render thread/INFO]: Registered maker for 'long' of class 'long'
-[16:10:38] [Render thread/INFO]: Registered maker for 'double_float' of class 'class java.math.BigDecimal'
-[16:10:38] [Render thread/INFO]: Registered maker for 'degree' of class 'float'
-[16:10:38] [Render thread/INFO]: Registered maker for 'percent' of class 'double'
-[16:10:38] [Render thread/INFO]: Registered maker for 'color' of class 'int'
-[16:10:38] [Render thread/INFO]: Registered maker for 'page' of class 'interface net.minecraft.class_2561'
-[16:10:38] [Render thread/INFO]: [voicechat] Loading Opus
-[16:10:38] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
-[16:10:38] [Render thread/INFO]: Deserializing YACLConfig from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\yacl.json5'
-[16:10:38] [Render thread/INFO]: Mixing gui.ChatHudMixin from chatpatches.mixins.json into net.minecraft.class_338
-[16:10:39] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
-[16:10:40] [Render thread/INFO]: Promoted to OpenGL 4.6 Core Profile
-[16:10:40] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
-[16:10:41] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
-[16:10:41] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
-[16:10:41] [Render thread/INFO]: OpenGL Version: 4.6.0 NVIDIA 551.86
-[16:10:41] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
-[16:10:41] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
-[16:10:41] [Render thread/INFO]: Initializing ImmediatelyFast 1.3.6+1.21.4 on NVIDIA GeForce GTX 1650/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 551.86
-[16:10:41] [Render thread/INFO]: Found Iris/Oculus 1.8.8+mc1.21.4. Enabling compatibility.
-[16:10:41] [Render thread/WARN]: @Redirect conflict. Skipping tcdcommons.client.mixin.events.json:MixinNativeImage from mod tcdcommons->@Redirect::skipPngValidation(Ljava/nio/ByteBuffer;)V with priority 1000, already redirected by screenshot_viewer.mixins.json:NativeImageMixin from mod screenshot_viewer->@Redirect::screenshot_viewer$redirect_validate(Ljava/nio/ByteBuffer;)V with priority 1000
-[16:10:42] [Render thread/INFO]: Identified OpenGL vendor: NVIDIA
-[16:10:42] [Render thread/INFO]: Identified OpenGL driver: NVIDIA
-[16:10:42] [Render thread/INFO]: Using OpenGL 4.6 and GLSL 4.50
-[16:10:42] [Render thread/INFO]: Use NV_conservative_raster
-[16:10:42] [Render thread/INFO]: Use NV_blend_equation_advanced_coherent
-[16:10:42] [Render thread/INFO]: OpenGL vendor: NVIDIA Corporation
-[16:10:42] [Render thread/INFO]: OpenGL renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
-[16:10:42] [Render thread/INFO]: OpenGL version: 4.6.0 NVIDIA 551.86
-[16:10:42] [Render thread/INFO]: OpenGL caps: 
+[17:05:51] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[17:05:51] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[17:05:51] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[17:05:51] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[17:05:51] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[17:05:51] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
+[17:05:51] [main/WARN]: Error loading class: net/coderbot/iris/uniforms/WorldTimeUniforms (java.lang.ClassNotFoundException: net/coderbot/iris/uniforms/WorldTimeUniforms)
+[17:05:51] [main/WARN]: Error loading class: org/anti_ad/mc/ipnext/event/AutoRefillHandler$ItemSlotMonitor (java.lang.ClassNotFoundException: org/anti_ad/mc/ipnext/event/AutoRefillHandler$ItemSlotMonitor)
+[17:05:51] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[17:05:51] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:05:51] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages)
+[17:05:51] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:05:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[17:05:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[17:05:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[17:05:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[17:05:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
+[17:05:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
+[17:05:52] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[17:05:52] [main/INFO]: Searching for graphics cards...
+[17:05:52] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce GTX 1650', adapterType=0x0000030B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_c81552b0afd57b24\nvoglv64.dll', openglIcdVersion=31.0.15.5186}
+[17:05:52] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[17:05:52] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[17:05:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:05:53] [main/INFO]: Mixing gui.ScreenMixin from chatpatches.mixins.json into net.minecraft.class_437
+[17:05:54] [main/WARN]: Method overwrite conflict for method_20813 in stfu.mixins.json:ThreadExecutorMixin from mod stfu, previously written by dynamic_fps.impl.mixin.bugfix.BlockableEventLoopMixin. Skipping method.
+[17:05:54] [main/WARN]: @ModifyConstant conflict. Skipping rrls.mixins.json:LoadingOverlayMixin from mod rrls->@ModifyConstant::rrls$changeAnimationSpeed(F)F with priority 1000, already redirected by dark-loading-screen.mixins.json:SplashOverlayMixin from mod dark-loading-screen->@ModifyConstant::getFadeOutTime(F)F with priority 1000
+[17:05:54] [main/WARN]: @ModifyConstant conflict. Skipping rrls.mixins.json:LoadingOverlayMixin from mod rrls->@ModifyConstant::rrls$changeAnimationSpeed(F)F with priority 1000, already redirected by dark-loading-screen.mixins.json:SplashOverlayMixin from mod dark-loading-screen->@ModifyConstant::getFadeInTime(F)F with priority 1000
+[17:05:55] [main/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:entity.MixinClientPlayerEntity from mod tweakeroo->@Redirect::onDoesGuiPauseGame(Lnet/minecraft/class_437;)Z with priority 990, already redirected by stfu.mixins.json:ClientPlayerEntityMixin from mod stfu->@Redirect::tickNausea(Lnet/minecraft/class_437;)Z with priority 1000
+[17:05:55] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 1058 milliseconds
+[17:05:55] [main/WARN]: Mixin stendhal.mixins.json:ChatScreenMixin from mod stendhal has multiple constructors, <init>(Lnet/minecraft/class_2561;)V was selected
+[17:05:55] [main/INFO]: Mixing gui.ChatScreenMixin from chatpatches.mixins.json into net.minecraft.class_408
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$filterMessages$35(Ljava/lang/String;Lnet/minecraft/class_303;)Z to md64e7ea$chatpatches$lambda$filterMessages$35$9 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$resetCopyMenu$34(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$resetCopyMenu$34$a in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$33(Lobro1961/chatpatches/gui/MenuButtonWidget;)Z to md64e7ea$chatpatches$lambda$loadCopyMenu$33$b in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$32(Lobro1961/chatpatches/gui/MenuButtonWidget;)Z to md64e7ea$chatpatches$lambda$loadCopyMenu$32$c in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$31(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$loadCopyMenu$31$d in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$30(Ljava/lang/String;)Ljava/lang/String; to md64e7ea$chatpatches$lambda$loadCopyMenu$30$e in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$loadCopyMenu$29(Ljava/lang/String;Lnet/minecraft/class_303;)Z to md64e7ea$chatpatches$lambda$loadCopyMenu$29$f in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$isMouseOverCopyMenu$28(DDLobro1961/chatpatches/gui/MenuButtonWidget;)Z to md64e7ea$chatpatches$lambda$isMouseOverCopyMenu$28$10 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$mouseMoved$27(DDLobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$mouseMoved$27$11 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$registerClickEvents$26(DDILobro1961/chatpatches/gui/MenuButtonWidget;)Z to md64e7ea$chatpatches$lambda$registerClickEvents$26$12 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$registerClickEvents$25(DDILobro1961/chatpatches/gui/MenuButtonWidget;)Z to md64e7ea$chatpatches$lambda$registerClickEvents$25$13 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$registerClickEvents$24(DDILobro1961/chatpatches/gui/MenuButtonWidget;)Z to md64e7ea$chatpatches$lambda$registerClickEvents$24$14 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$renderSearchSettingsAndCopyMenu$23(Lnet/minecraft/class_332;IIFLobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$renderSearchSettingsAndCopyMenu$23$15 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$renderSearchSettingsAndCopyMenu$22(Lnet/minecraft/class_332;IIFLobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$renderSearchSettingsAndCopyMenu$22$16 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$renderSearchSettingsAndCopyMenu$21(Lnet/minecraft/class_332;IIFLobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$renderSearchSettingsAndCopyMenu$21$17 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$20(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$initSearchStuff$20$18 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$19(ILobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$initSearchStuff$19$19 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$18(Lobro1961/chatpatches/gui/MenuButtonWidget;)I to md64e7ea$chatpatches$lambda$initSearchStuff$18$1a in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$17(Lobro1961/chatpatches/gui/MenuButtonWidget;)V to md64e7ea$chatpatches$lambda$initSearchStuff$17$1b in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$16()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$16$1c in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$15()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$15$1d in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$14()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$14$1e in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$13()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$13$1f in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$12()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$12$20 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$11()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$11$21 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$10()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$10$22 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$9()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$9$23 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$8(Ljava/lang/String;)V to md64e7ea$chatpatches$lambda$initSearchStuff$8$24 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$7()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$7$25 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$6()Ljava/lang/String; to md64e7ea$chatpatches$lambda$initSearchStuff$6$26 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$5(Ljava/lang/String;Ljava/lang/Integer;)Lnet/minecraft/class_4185; to md64e7ea$chatpatches$lambda$initSearchStuff$5$27 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$4(Lobro1961/chatpatches/config/Config$Setting;Lnet/minecraft/class_2561;Lnet/minecraft/class_4185;)V to md64e7ea$chatpatches$lambda$initSearchStuff$4$28 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$3(Ljava/lang/String;)V to md64e7ea$chatpatches$lambda$initSearchStuff$3$29 in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$2(Lnet/minecraft/class_4185;)V to md64e7ea$chatpatches$lambda$initSearchStuff$2$2a in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$initSearchStuff$1(Lnet/minecraft/class_4185;)V to md64e7ea$chatpatches$lambda$initSearchStuff$1$2b in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:55] [main/INFO]: Renaming synthetic method lambda$static$0(Ljava/lang/Integer;)Lnet/minecraft/class_2561; to md64e7ea$chatpatches$lambda$static$0$2c in chatpatches.mixins.json:gui.ChatScreenMixin from mod chatpatches
+[17:05:58] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[17:05:58] [main/WARN]: Method overwrite conflict for getClimateSettings in polytone-common.mixins.json:accessor.BiomeAccessor from mod polytone, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::negativeLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[17:05:58] [main/WARN]: @ModifyConstant conflict. Skipping mixins.tweakeroo.json:block.MixinStructureBlockBlockEntity from mod tweakeroo->@ModifyConstant::overrideMaxSize(I)I with priority 999, already redirected by carpet.mixins.json:StructureBlockEntity_limitsMixin from mod carpet->@ModifyConstant::positiveLimit(I)I with priority 1000
+[17:06:02] [main/INFO]: Mixing security.ClickEvent$ActionMixin from chatpatches.mixins.json into net.minecraft.class_2558$class_2559
+[17:06:03] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:06:03] [Render thread/INFO]: Setting user: KeyFac
+[17:06:04] [Render thread/INFO]: BetterPingDisplay mod loaded
+[17:06:04] [Render thread/INFO]: ChatAnimation initialized!
+[17:06:04] [Render thread/INFO]: Loading Collective version 7.93.
+[17:06:04] [Render thread/INFO]: Enabled 10 bug fixes: [MC-577, MC-22882, MC-59810, MC-89146, MC-90683, MC-112730, MC-122477, MC-199467, MC-237493, MC-263865]
+[17:06:04] [Render thread/INFO]: Successfully Debugify'd your game!
+[17:06:04] [TISCM Mapping/INFO]: Yarn mapping file yarn-1.21.4+build.8-v2.tiny loaded
+[17:06:04] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:MixinServerPlayNetworkHandler from mod tweakeroo->@Redirect::tweakeroo_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005, already redirected by mixins.litematica.json:MixinServerPlayNetworkHandler from mod litematica->@Redirect::litematica_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1010
+[17:06:04] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[17:06:04] [Render thread/INFO]: ping & connect fast!
+[17:06:04] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:06:05] [ForkJoinPool.commonPool-worker-1/INFO]: Loading translations...
+[17:06:05] [ForkJoinPool.commonPool-worker-1/INFO]: Registering protocols...
+[17:06:05] [Render thread/INFO]: Initializing ServerSide Packet Registries
+[17:06:05] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[17:06:05] [Render thread/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[17:06:05] [Render thread/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[17:06:05] [Render thread/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[17:06:05] [Render thread/INFO]: litematica_printer-1.21.4-3.2.1 initialized.
+[17:06:05] [Render thread/INFO]: MidnightLib detected!
+[17:06:05] [Render thread/INFO]: Make Bubbles Pop by Tschipcraft initialized!
+[17:06:05] [Render thread/WARN]: Signature is missing
+[17:06:05] [Render thread/INFO]: Modern UI common config loaded/reloaded
+[17:06:05] [Render thread/INFO]: Initialized Modern UI
+[17:06:05] [Render thread/INFO]: [STDOUT]: found type, is TWO
+[17:06:05] [Render thread/INFO]: [STDOUT]: [Modpack Update Checker] Loaded configuration file.
+[17:06:06] [ForkJoinPool.commonPool-worker-1/INFO]: Started resource pack HTTP server on http://127.0.0.1:2098/
+[17:06:06] [ForkJoinPool.commonPool-worker-1/INFO]: ViaVersion detected lowest supported version by the proxy: c0.0.15a-1 (0)
+[17:06:06] [ForkJoinPool.commonPool-worker-1/INFO]: Highest supported version by the proxy: 1.21.4 (769)
+[17:06:06] [ForkJoinPool.commonPool-worker-1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:06:07] [Render thread/INFO]: [STDOUT]: Fetching available hotfixes...
+[17:06:08] [Render thread/INFO]: [STDERR]: <html> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDERR]: <head><title>404 Not Found</title></head> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDERR]: <body> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDERR]: <center><h1>404 Not Found</h1></center> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDERR]: <hr><center>nginx/1.22.1</center> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDERR]: </body> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDERR]: </html> can't be hotfixed!
+[17:06:08] [Render thread/INFO]: [STDOUT]: Found 0 hotfixes in 1301 ms
+[17:06:09] [Render thread/INFO]: Mixing security.CPNHMixin from chatpatches.mixins.json into net.minecraft.class_634
+[17:06:09] [Render thread/INFO]: Loading Noisium.
+[17:06:09] [Render thread/INFO]: Packet Fixer has been initialized successfully
+[17:06:09] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor.
+[17:06:09] [Render thread/INFO]: [Simple Menu] Initiating.
+[17:06:09] [Render thread/INFO]: Creating asynchronous mapping cache executor...
+[17:06:09] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
+[17:06:09] [Mappings Cache Thread #1/INFO]: Refreshing latest yarn build (last refresh was 116 hour(s) ago)...
+[17:06:09] [Mappings Cache Thread #1/INFO]: Fetching latest yarn build...
+[17:06:09] [Render thread/INFO]: [Stendhal] Initializing
+[17:06:09] [Mappings Cache Thread #1/INFO]: Trying to request GET https://maven.fabricmc.net/net/fabricmc/yarn/maven-metadata.xml... (try #0)
+[17:06:09] [Render thread/INFO]: Deserializing Config from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\stfu.json5'
+[17:06:09] [Render thread/INFO]: [STDOUT]: TxniLib onInitialize!!
+[17:06:09] [Render thread/INFO]: [voicechat] Compatibility version 18
+[17:06:09] [Render thread/INFO]: [voicechat] Loading plugins
+[17:06:09] [Render thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[17:06:09] [Render thread/INFO]: [voicechat] Initializing plugins
+[17:06:09] [Render thread/INFO]: Initializing Simple Voice Chat integration
+[17:06:09] [Render thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[17:06:09] [Render thread/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[17:06:09] [Render thread/INFO]: [voicechat] Successfully registered ViaVersion mappings
+[17:06:09] [Render thread/INFO]: XRay mod has been initialized
+[17:06:10] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[17:06:10] [Render thread/INFO]: [BetterF3] Loading...
+[17:06:10] [Render thread/INFO]: [BetterF3] All done!
+[17:06:10] [Render thread/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsClient'.
+[17:06:10] [Render thread/INFO]: Trying to read config file...
+[17:06:10] [Render thread/INFO]: A config file was found, loading it..
+[17:06:10] [Render thread/INFO]: Successfully loaded config file.
+[17:06:10] [Render thread/WARN]: disabled "Before Name" rendermode due to incompatibility with modernui
+[17:06:10] [Render thread/INFO]: [Config.read] Loaded config info from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\chatpatches.json'!
+[17:06:10] [Render thread/INFO]: [Config.write] Saved config info to 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\chatpatches.json'!
+[17:06:10] [Render thread/INFO]: [ChatPatches()] Finished setting up!
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-577
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-2025
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-4490
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-7569
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-8187
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-22882
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-30391
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-46766
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-59810
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-69216
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-79545
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-80859
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-88371
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-89146
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-90683
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-93018
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-93384
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-100991
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-105068
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-108948
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-112730
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-116379
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-119417
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-119754
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-121706
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-121903
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-122477
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-122627
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-127970
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-129909
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-132878
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-143474
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-155509
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-159163
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-160095
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-165381
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-176559
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-179072
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-183776
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-183990
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-197260
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-199467
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-200418
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-206922
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-215530
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-215531
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-217716
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-223153
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-224729
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-231097
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-231743
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-232869
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-237493
+[17:06:10] [Render thread/INFO]: Caching description for bug MC-263865
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:netherite_chestplate' and 3 more items!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:diamond_helmet' and 3 more items!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:turtle_helmet'!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:iron_helmet' and 3 more items!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:chainmail_helmet' and 3 more items!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:golden_helmet' and 3 more items!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:leather_helmet' and 3 more items!
+[17:06:10] [Render thread/INFO]: Successfully registered 'minecraft:elytra'!
+[17:06:10] [Render thread/INFO]: Dynamic FPS 3.9.0 active on Fabric!
+[17:06:10] [Render thread/INFO]: Deserializing Config from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\dynamiccrosshair.json5'
+[17:06:10] [Render thread/INFO]: Loading Entity Model Features, yes EMF breaks your resource pack, on purpose >:). There are 300 lines of code dedicated just for detecting if it is you specifically and if your favourite resource pack is installed, then EMF breaks it >:)
+/s
+[17:06:10] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
+[17:06:10] [Render thread/INFO]: Loading Entity Texture Features, why does no one download Solid Mobs :(
+[17:06:10] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[17:06:10] [Render thread/INFO]: Registering leaf particles.
+[17:06:10] [Render thread/INFO]: [FastQuit] Initialized
+[17:06:10] [Render thread/INFO]: it is Windows OS! Loading mod...
+[17:06:10] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
+[17:06:11] [Render thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[17:06:11] [Render thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@4642baea for service interface journeymap.api.services.ClientPlatformService
+[17:06:11] [Render thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@360f6620 for service interface journeymap.api.services.CommonPlatformService
+[17:06:11] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack 🚀
+[17:06:11] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[17:06:11] [Mappings Cache Thread #1/INFO]: Received 131564 bytes (128 KB) with status 200 from GET https://maven.fabricmc.net/net/fabricmc/yarn/maven-metadata.xml in 1312ms
+[17:06:11] [Mappings Cache Thread #1/INFO]: Cached latest yarn build version: 1.21.4+build.8
+[17:06:11] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.4+build.8 are already downloaded
+[17:06:11] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 1369ms)
+[17:06:11] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
+[17:06:11] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 230ms)
+[17:06:11] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
+[17:06:11] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 48ms)
+[17:06:11] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 1652ms)
+[17:06:11] [Mappings Cache Thread #1/INFO]:   Classes: 8095
+[17:06:11] [Mappings Cache Thread #1/INFO]:   Methods: 29006
+[17:06:11] [Mappings Cache Thread #1/INFO]:   Fields: 33629
+[17:06:11] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
+[17:06:11] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
+[17:06:11] [Render thread/INFO]: Modern UI client config loaded/reloaded
+[17:06:11] [Render thread/INFO]: Modern UI text config loaded/reloaded
+[17:06:11] [Render thread/INFO]: Created TextLayoutEngine
+[17:06:11] [Render thread/INFO]: Created MuiFabricApi
+[17:06:11] [Render thread/INFO]: Initialized Modern UI text engine
+[17:06:11] [Render thread/INFO]: Initialized Modern UI client
+[17:06:11] [Render thread/WARN]: Using Cloth Config GUI
+[17:06:12] [Render thread/INFO]: Loaded config :particle_core_config in 163ms
+[17:06:12] [Render thread/INFO]: [STDOUT]: Attempting to invoke putenv("ALSOFT_CONF=cache\rsls-alsoft-1921932625681710412.conf")
+[17:06:12] [Render thread/INFO]: Missing client config file. Creating one...
+[17:06:12] [Render thread/INFO]: [LambDynLights] Initializing SodiumDynamicLights...
+[17:06:12] [Render thread/INFO]: Updating config cache
+[17:06:12] [Render thread/INFO]: Cache updated successfully
+[17:06:12] [Render thread/INFO]: Reloading reverb parameters
+[17:06:12] [Render thread/INFO]: [SSPB] Broken dirt path lighting is best dirt path lighting lol
+[17:06:12] [Render thread/INFO]: Initializing 'TCD Commons API' 3.12.5+fabric-1.21.4 as 'TCDCommonsClient'.
+[17:06:12] [Render thread/INFO]: Registered new config: 'toadlib_config' for 'toadlib'
+[17:06:12] [Render thread/INFO]: Registered maker for 'bool' of class 'boolean'
+[17:06:12] [Render thread/INFO]: Registered maker for 'string' of class 'class java.lang.String'
+[17:06:12] [Render thread/INFO]: Registered maker for 'enum' of class 'class java.lang.Enum'
+[17:06:12] [Render thread/INFO]: Registered maker for 'byte' of class 'byte'
+[17:06:12] [Render thread/INFO]: Registered maker for 'short' of class 'short'
+[17:06:12] [Render thread/INFO]: Registered maker for 'int' of class 'int'
+[17:06:12] [Render thread/INFO]: Registered maker for 'long' of class 'long'
+[17:06:12] [Render thread/INFO]: Registered maker for 'long' of class 'long'
+[17:06:12] [Render thread/INFO]: Registered maker for 'double_float' of class 'class java.math.BigDecimal'
+[17:06:12] [Render thread/INFO]: Registered maker for 'degree' of class 'float'
+[17:06:12] [Render thread/INFO]: Registered maker for 'percent' of class 'double'
+[17:06:12] [Render thread/INFO]: Registered maker for 'color' of class 'int'
+[17:06:12] [Render thread/INFO]: Registered maker for 'page' of class 'interface net.minecraft.class_2561'
+[17:06:12] [Render thread/INFO]: [voicechat] Loading Opus
+[17:06:12] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[17:06:12] [Render thread/INFO]: Deserializing YACLConfig from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\config\yacl.json5'
+[17:06:12] [Render thread/INFO]: Mixing gui.ChatHudMixin from chatpatches.mixins.json into net.minecraft.class_338
+[17:06:13] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[17:06:14] [Render thread/INFO]: Promoted to OpenGL 4.6 Core Profile
+[17:06:14] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[17:06:15] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[17:06:15] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[17:06:15] [Render thread/INFO]: OpenGL Version: 4.6.0 NVIDIA 551.86
+[17:06:15] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[17:06:15] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
+[17:06:15] [Render thread/INFO]: Initializing ImmediatelyFast 1.3.6+1.21.4 on NVIDIA GeForce GTX 1650/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 551.86
+[17:06:15] [Render thread/INFO]: Found Iris/Oculus 1.8.8+mc1.21.4. Enabling compatibility.
+[17:06:15] [Render thread/WARN]: @Redirect conflict. Skipping tcdcommons.client.mixin.events.json:MixinNativeImage from mod tcdcommons->@Redirect::skipPngValidation(Ljava/nio/ByteBuffer;)V with priority 1000, already redirected by screenshot_viewer.mixins.json:NativeImageMixin from mod screenshot_viewer->@Redirect::screenshot_viewer$redirect_validate(Ljava/nio/ByteBuffer;)V with priority 1000
+[17:06:16] [Render thread/INFO]: Identified OpenGL vendor: NVIDIA
+[17:06:16] [Render thread/INFO]: Identified OpenGL driver: NVIDIA
+[17:06:16] [Render thread/INFO]: Using OpenGL 4.6 and GLSL 4.50
+[17:06:16] [Render thread/INFO]: Use NV_conservative_raster
+[17:06:16] [Render thread/INFO]: Use NV_blend_equation_advanced_coherent
+[17:06:16] [Render thread/INFO]: OpenGL vendor: NVIDIA Corporation
+[17:06:16] [Render thread/INFO]: OpenGL renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[17:06:16] [Render thread/INFO]: OpenGL version: 4.6.0 NVIDIA 551.86
+[17:06:16] [Render thread/INFO]: OpenGL caps: 
 AnisotropySupport: true
 GpuTracingSupport: false
 ConservativeRasterSupport: true
@@ -908,195 +913,538 @@ ColorTypeToBackendFormat:
 	ARGB_8888=>GLenum [0x0]
 CompressionTypeToBackendFormat: [null, {mBackend=OpenGL, mFormat=ETC2}, {mBackend=OpenGL, mFormat=RGB8_BC1}, {mBackend=OpenGL, mFormat=RGBA8_BC1}]
 
-[16:10:42] [Render thread/INFO]: UI manager initialized
-[16:10:42] [Render thread/INFO]: Debug functionality is disabled.
-[16:10:42] [Render thread/INFO]: OpenGL 4.5 detected, enabling DSA.
-[16:10:43] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
-[16:10:43] [Render thread/INFO]: Creating new resource manager!
-[16:10:43] [Render thread/INFO]: Quick reload listener 'class_1076'
-[16:10:43] [Render thread/INFO]: Quick reload listener 'Shader Loader'
-[16:10:43] [Render thread/INFO]: Quick reload listener 'class_4008'
-[16:10:44] [Render thread/INFO]: Quick reload listener 'class_378'
-[16:10:44] [Worker-Main-6/INFO]: Scanned emoji shortcodes: 6923
-[16:10:44] [ForkJoinPool.commonPool-worker-1/INFO]: Redirect registered font 'JetBrains Mono Medium' to 'modernui:jetbrains-mono-medium'
-[16:10:44] [ForkJoinPool.commonPool-worker-1/INFO]: Registered font 'JetBrains Mono Medium', location 'modernui:font/jetbrains-mono-medium.ttf' in pack: 'modernui'
-[16:10:44] [Worker-Main-3/INFO]: Scanned emoji map size: 3581
-[16:10:44] [Worker-Main-4/INFO]: Redirect registered font 'mui-i18n-compat' to 'modernui:mui-i18n-compat'
-[16:10:44] [Worker-Main-4/INFO]: Registered font 'mui-i18n-compat', location 'modernui:font/muii18ncompat/muii18ncompat.ttf' in pack: 'modernui'
-[16:10:44] [ForkJoinPool.commonPool-worker-2/INFO]: Redirect registered font 'Source Han Sans CN Medium' to 'modernui:source-han-sans-cn-medium'
-[16:10:44] [ForkJoinPool.commonPool-worker-2/INFO]: Registered font 'Source Han Sans CN Medium', location 'modernui:font/source-han-sans-cn-medium.otf' in pack: 'modernui'
-[16:10:44] [Worker-Main-4/INFO]: Font 'Noto Sans' failed to load or invalid
-[16:10:44] [Worker-Main-4/INFO]: Font 'Segoe UI Variable' failed to load or invalid
-[16:10:44] [Worker-Main-4/INFO]: Font 'San Francisco' failed to load or invalid
-[16:10:44] [UI thread/INFO]: UI thread initialized in 1757ms
-[16:10:44] [Worker-Main-4/INFO]: Font 'Open Sans' failed to load or invalid
-[16:10:44] [Worker-Main-4/INFO]: Font 'STHeiti' failed to load or invalid
-[16:10:44] [Worker-Main-4/INFO]: Loaded typeface: FontCollection{mFamilies=[Source Han Sans CN Medium, Segoe UI, SimHei, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
-[16:10:44] [Worker-Main-1/WARN]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected key.isometric-renders.area_select to be a string, was an array (["",...域"]))
-[16:10:45] [Worker-Main-1/WARN]: Skipped language file: mythicmetals:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected tooltip.mythril_drill.upgrade_tip to be a string, was an array ([{"t..."}]))
-[16:10:45] [Worker-Main-1/WARN]: Skipped language file: minecells:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected chat.minecells.wipe_try to be a string, was an array (["\n...n"]))
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:alt' in pack: 'vanilla'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font bundle: 'minecraft:font/alt.json', font set: [minecraft:include/space,minecraft:font/ascii_sga.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:default' in pack: 'vanilla'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:default' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font bundle: 'minecraft:font/default.json', font set: [minecraft:include/space,minecraft:include/default,minecraft:include/cjk-punctuations]
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:illageralt' in pack: 'vanilla'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font bundle: 'minecraft:font/illageralt.json', font set: [minecraft:include/space,minecraft:font/asciillager.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:include/cjk-punctuations' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font bundle: 'minecraft:font/include/cjk-punctuations.json', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:include/default' in pack: 'vanilla'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font bundle: 'minecraft:font/include/default.json', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font 'minecraft:include/space' in pack: 'vanilla'
-[16:10:45] [Worker-Main-4/INFO]: Loaded raw font bundle: 'minecraft:font/include/space.json', font set: [minecraft:include/space / minecraft:space]
-[16:10:45] [Worker-Main-4/INFO]: Loaded font: 'minecraft:include/space', font set: [minecraft:include/space / minecraft:space]
-[16:10:45] [Worker-Main-4/INFO]: Loaded font: 'minecraft:include/default', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded font: 'minecraft:include/cjk-punctuations', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded font: 'minecraft:default', font set: [minecraft:include/space / minecraft:space,minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png,minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded font: 'minecraft:illageralt', font set: [minecraft:include/space / minecraft:space,minecraft:font/asciillager.png]
-[16:10:45] [Worker-Main-4/INFO]: Loaded font: 'minecraft:alt', font set: [minecraft:include/space / minecraft:space,minecraft:font/ascii_sga.png]
-[16:10:45] [Render thread/INFO]: Quick reload listener 'class_8658'
-[16:10:45] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:render.MixinGameRenderer_ViewBob from mod tweakeroo->@Redirect::disableWorldViewBob(Lnet/minecraft/class_757;Lnet/minecraft/class_4587;F)V with priority 999, already redirected by mixins.iris.json:MixinModelViewBobbing from mod iris->@Redirect::iris$stopBobbing(Lnet/minecraft/class_757;Lnet/minecraft/class_4587;F)V with priority 1000
-[16:10:45] [Render thread/WARN]: Method overwrite conflict for isDirty in mixins.sodiumextras.json:impl.darkness.accessors.LightTextureAccessor from mod sodiumextras, previously written by stfu.mixin.LightmapTextureManagerMixin. Skipping method.
-[16:10:45] [Render thread/INFO]: Hardware information:
-[16:10:45] [Render thread/INFO]: CPU: 8x Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
-[16:10:45] [Render thread/INFO]: GPU: NVIDIA GeForce GTX 1650/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 551.86)
-[16:10:45] [Render thread/INFO]: OS: Windows 10 (10.0)
-[16:10:47] [Render thread/INFO]: [STDOUT]: InvGUI Initialized
-[16:10:47] [Render thread/INFO]: Mixing chat.MessageHandlerMixin from chatpatches.mixins.json into net.minecraft.class_7594
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/minecraft.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/edition.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_overlay.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_0.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_1.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_2.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_3.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_4.png'!
-[16:10:47] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_5.png'!
-[16:10:48] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, advanced-xray-fabric, alternate-current, appleskin, authme, axolotlbuckets, betterf3, betterpingdisplay, betterstats, c2me, capes, cardinal-components-base, cardinal-components-entity, carpet, carpet-tis-addition, catconfig-mc, chat_heads, chatanimation, chatpatches, cloth-config, colorfulsubtitles, com_viaversion_viaaprilfools-common, com_viaversion_viabackwards-common, com_viaversion_viaversion-common, conditional-mixin, continuity, controlling, dark-loading-screen, debugify, deleteworldstotrash, detailab, ding, dynamic_fps, dynamiccrosshair, dynamiccrosshair-api, entity_model_features, entity_texture_features, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fabrishot, fallingleaves, fastipping, fastquit, forgeconfigapiport, fzzy_config, gca, gpu_tape, held-item-info, ichunutil, immediatelyfast, ingameime, inventoryhud, inventoryprofilesnext, iris, itemscroller, jade, jankson, journeymap, justenoughbreeding, krypton, ksyxis, libbamboo, libgui, libipn, litematica, litematica_printer, lithium, magiclib, magiclib-1_21_4, magiclib_core, magiclib_malilib_extra, magiclib_minecraft_api, make_bubbles_pop, malilib, mcwifipnp, midnightlib, minihud, modernui, modmenu, modpack-update-checker, moreculling, mpuc_lavendermd, net_raphimc_viabedrock, net_raphimc_vialegacy, nochatreports, noisium, notenoughanimations, onsoulfire, optigui, paginatedadvancements, particle_core, particlerain, placeholder-api, polytone, presencefootsteps, puzzle, reeses-sodium-options, resourcefulconfig, resourcify, rrls, rsls, scalablelux, screenshot_viewer, searchables, seedcrackerx, serverpingerfixer, skinlayers3d, smoothscroll, sodium, sodium-extra, sodiumdynamiclights, sodiumextras, sodiumoptionsapi, sodiumoptionsmodcompat, sound_physics_remastered, sspb, stackdeobfuscator, stackdeobfuscator-common, status-effect-bars, stendhal, stfu, suppressopengl1280, syncmatica, tcdcommons, toadlib, tweakermore, tweakeroo, txnilib, viafabricplus, viafabricplus-visuals, visuality, vmp, voicechat, yet_another_config_lib_v3, yosbr, zoomify, file/SodiumTranslations.zip, file/NoCaveAmbience.zip, file/xaeros-map-chinese.zip, continuity:default, continuity:glass_pane_culling_fix, file/XKRD 红显v3.5for1.20.2~1.21.3.zip, file/masa-mods-chinese.zip, file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip
-[16:10:48] [Worker-Main-4/INFO]: Scanned emoji shortcodes: 6923
-[16:10:48] [ForkJoinPool.commonPool-worker-2/INFO]: Registered 0 extra models
-[16:10:49] [Worker-Main-6/INFO]: Scanned emoji map size: 3581
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:alt' in pack: 'vanilla'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font bundle: 'minecraft:font/alt.json', font set: [minecraft:include/space,minecraft:font/ascii_sga.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:default' in pack: 'vanilla'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:default' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font bundle: 'minecraft:font/default.json', font set: [minecraft:include/space,minecraft:include/default,minecraft:include/cjk-punctuations]
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:illageralt' in pack: 'vanilla'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font bundle: 'minecraft:font/illageralt.json', font set: [minecraft:include/space,minecraft:font/asciillager.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:include/cjk-punctuations' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font bundle: 'minecraft:font/include/cjk-punctuations.json', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:include/default' in pack: 'vanilla'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font bundle: 'minecraft:font/include/default.json', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font 'minecraft:include/space' in pack: 'vanilla'
-[16:10:49] [Worker-Main-5/INFO]: Loaded raw font bundle: 'minecraft:font/include/space.json', font set: [minecraft:include/space / minecraft:space]
-[16:10:49] [Worker-Main-5/INFO]: Loaded font: 'minecraft:include/space', font set: [minecraft:include/space / minecraft:space]
-[16:10:49] [Worker-Main-5/INFO]: Loaded font: 'minecraft:include/default', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded font: 'minecraft:include/cjk-punctuations', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded font: 'minecraft:default', font set: [minecraft:include/space / minecraft:space,minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png,minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded font: 'minecraft:illageralt', font set: [minecraft:include/space / minecraft:space,minecraft:font/asciillager.png]
-[16:10:49] [Worker-Main-5/INFO]: Loaded font: 'minecraft:alt', font set: [minecraft:include/space / minecraft:space,minecraft:font/ascii_sga.png]
-[16:10:49] [Worker-Main-4/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
-[16:10:50] [Render thread/INFO]: [ETF]: reloading ETF data.
-[16:10:50] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'minecraft:scaffolding/file/XKRD 红显v3.5for1.20.2~1.21.3.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
-[16:10:50] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'minecraft:scaffolding/file/XKRD 红显v3.5for1.20.2~1.21.3.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
-[16:10:50] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[16:10:50] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[16:10:50] [Worker-Main-1/WARN]: Invalid path in datapack: minecraft:models/block/pressure_plate_down x.json, ignoring
-[16:10:51] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[16:10:51] [Render thread/INFO]: [Simple Menu] Loading texture data.
-[16:10:52] [Render thread/WARN]: Unable to find entity: 'minecraft:boat'
-[16:10:53] [Render thread/INFO]: Cached all modded block culling states
-[16:10:53] [Worker-Main-3/WARN]: Texture minecraft:block/sculk_sensor_tendril_active with size 8x8 limits mip level from 4 to 3
-[16:10:53] [Worker-Main-3/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
-[16:11:01] [Worker-Main-3/WARN]: Missing texture references in model minecraft:redstone_wire#north=none,east=side,power=11,west=none,south=up:
+[17:06:16] [Render thread/INFO]: UI manager initialized
+[17:06:16] [Render thread/INFO]: Debug functionality is disabled.
+[17:06:16] [Render thread/INFO]: OpenGL 4.5 detected, enabling DSA.
+[17:06:16] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[17:06:16] [Render thread/INFO]: Creating new resource manager!
+[17:06:16] [Render thread/INFO]: Quick reload listener 'class_1076'
+[17:06:17] [Render thread/INFO]: Quick reload listener 'Shader Loader'
+[17:06:17] [Render thread/INFO]: Quick reload listener 'class_4008'
+[17:06:17] [Render thread/INFO]: Quick reload listener 'class_378'
+[17:06:17] [Worker-Main-5/INFO]: Scanned emoji shortcodes: 6923
+[17:06:17] [Worker-Main-1/WARN]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected key.isometric-renders.area_select to be a string, was an array (["",...域"]))
+[17:06:17] [Worker-Main-1/WARN]: Skipped language file: mythicmetals:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected tooltip.mythril_drill.upgrade_tip to be a string, was an array ([{"t..."}]))
+[17:06:17] [Worker-Main-4/INFO]: Scanned emoji map size: 3581
+[17:06:17] [Worker-Main-1/WARN]: Skipped language file: minecells:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected chat.minecells.wipe_try to be a string, was an array (["\n...n"]))
+[17:06:18] [ForkJoinPool.commonPool-worker-1/INFO]: Redirect registered font 'mui-i18n-compat' to 'modernui:mui-i18n-compat'
+[17:06:18] [ForkJoinPool.commonPool-worker-1/INFO]: Registered font 'mui-i18n-compat', location 'modernui:font/muii18ncompat/muii18ncompat.ttf' in pack: 'modernui'
+[17:06:18] [Worker-Main-3/INFO]: Redirect registered font 'JetBrains Mono Medium' to 'modernui:jetbrains-mono-medium'
+[17:06:18] [Worker-Main-3/INFO]: Registered font 'JetBrains Mono Medium', location 'modernui:font/jetbrains-mono-medium.ttf' in pack: 'modernui'
+[17:06:18] [ForkJoinPool.commonPool-worker-2/INFO]: Redirect registered font 'Source Han Sans CN Medium' to 'modernui:source-han-sans-cn-medium'
+[17:06:18] [ForkJoinPool.commonPool-worker-2/INFO]: Registered font 'Source Han Sans CN Medium', location 'modernui:font/source-han-sans-cn-medium.otf' in pack: 'modernui'
+[17:06:18] [Worker-Main-3/INFO]: Font 'Noto Sans' failed to load or invalid
+[17:06:18] [Worker-Main-3/INFO]: Font 'Segoe UI Variable' failed to load or invalid
+[17:06:18] [Worker-Main-3/INFO]: Font 'San Francisco' failed to load or invalid
+[17:06:18] [Worker-Main-3/INFO]: Font 'Open Sans' failed to load or invalid
+[17:06:18] [Worker-Main-3/INFO]: Font 'STHeiti' failed to load or invalid
+[17:06:18] [Worker-Main-3/INFO]: Loaded typeface: FontCollection{mFamilies=[Source Han Sans CN Medium, Segoe UI, SimHei, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
+[17:06:18] [UI thread/INFO]: UI thread initialized in 2095ms
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:alt' in pack: 'vanilla'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font bundle: 'minecraft:font/alt.json', font set: [minecraft:include/space,minecraft:font/ascii_sga.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:default' in pack: 'vanilla'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:default' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font bundle: 'minecraft:font/default.json', font set: [minecraft:include/space,minecraft:include/default,minecraft:include/cjk-punctuations]
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:illageralt' in pack: 'vanilla'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font bundle: 'minecraft:font/illageralt.json', font set: [minecraft:include/space,minecraft:font/asciillager.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:include/cjk-punctuations' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font bundle: 'minecraft:font/include/cjk-punctuations.json', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:include/default' in pack: 'vanilla'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font bundle: 'minecraft:font/include/default.json', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[17:06:18] [Render thread/INFO]: Quick reload listener 'class_8658'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font 'minecraft:include/space' in pack: 'vanilla'
+[17:06:18] [Worker-Main-3/INFO]: Loaded raw font bundle: 'minecraft:font/include/space.json', font set: [minecraft:include/space / minecraft:space]
+[17:06:18] [Worker-Main-3/INFO]: Loaded font: 'minecraft:include/space', font set: [minecraft:include/space / minecraft:space]
+[17:06:18] [Worker-Main-3/INFO]: Loaded font: 'minecraft:include/default', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded font: 'minecraft:include/cjk-punctuations', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded font: 'minecraft:default', font set: [minecraft:include/space / minecraft:space,minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png,minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded font: 'minecraft:illageralt', font set: [minecraft:include/space / minecraft:space,minecraft:font/asciillager.png]
+[17:06:18] [Worker-Main-3/INFO]: Loaded font: 'minecraft:alt', font set: [minecraft:include/space / minecraft:space,minecraft:font/ascii_sga.png]
+[17:06:19] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:render.MixinGameRenderer_ViewBob from mod tweakeroo->@Redirect::disableWorldViewBob(Lnet/minecraft/class_757;Lnet/minecraft/class_4587;F)V with priority 999, already redirected by mixins.iris.json:MixinModelViewBobbing from mod iris->@Redirect::iris$stopBobbing(Lnet/minecraft/class_757;Lnet/minecraft/class_4587;F)V with priority 1000
+[17:06:20] [Render thread/WARN]: Method overwrite conflict for isDirty in mixins.sodiumextras.json:impl.darkness.accessors.LightTextureAccessor from mod sodiumextras, previously written by stfu.mixin.LightmapTextureManagerMixin. Skipping method.
+[17:06:20] [Render thread/INFO]: Hardware information:
+[17:06:20] [Render thread/INFO]: CPU: 8x Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+[17:06:20] [Render thread/INFO]: GPU: NVIDIA GeForce GTX 1650/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 551.86)
+[17:06:20] [Render thread/INFO]: OS: Windows 10 (10.0)
+[17:06:21] [Render thread/INFO]: [STDOUT]: InvGUI Initialized
+[17:06:21] [Render thread/INFO]: Mixing chat.MessageHandlerMixin from chatpatches.mixins.json into net.minecraft.class_7594
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/minecraft.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/edition.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_overlay.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_0.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_1.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_2.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_3.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_4.png'!
+[17:06:21] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_5.png'!
+[17:06:23] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, advanced-xray-fabric, alternate-current, appleskin, authme, axolotlbuckets, betterf3, betterpingdisplay, betterstats, c2me, capes, cardinal-components-base, cardinal-components-entity, carpet, carpet-tis-addition, catconfig-mc, chat_heads, chatanimation, chatpatches, cloth-config, colorfulsubtitles, com_viaversion_viaaprilfools-common, com_viaversion_viabackwards-common, com_viaversion_viaversion-common, conditional-mixin, continuity, controlling, dark-loading-screen, debugify, deleteworldstotrash, detailab, ding, dynamic_fps, dynamiccrosshair, dynamiccrosshair-api, entity_model_features, entity_texture_features, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fabrishot, fallingleaves, fastipping, fastquit, forgeconfigapiport, fzzy_config, gca, gpu_tape, held-item-info, ichunutil, immediatelyfast, ingameime, inventoryhud, inventoryprofilesnext, iris, itemscroller, jade, jankson, journeymap, justenoughbreeding, krypton, ksyxis, libbamboo, libgui, libipn, litematica, litematica_printer, lithium, magiclib, magiclib-1_21_4, magiclib_core, magiclib_malilib_extra, magiclib_minecraft_api, make_bubbles_pop, malilib, mcwifipnp, midnightlib, minihud, modernui, modmenu, modpack-update-checker, moreculling, mpuc_lavendermd, net_raphimc_viabedrock, net_raphimc_vialegacy, nochatreports, noisium, notenoughanimations, onsoulfire, optigui, paginatedadvancements, particle_core, particlerain, placeholder-api, polytone, presencefootsteps, puzzle, reeses-sodium-options, resourcefulconfig, resourcify, rrls, rsls, scalablelux, screenshot_viewer, searchables, seedcrackerx, serverpingerfixer, skinlayers3d, smoothscroll, sodium, sodium-extra, sodiumdynamiclights, sodiumextras, sodiumoptionsapi, sodiumoptionsmodcompat, sound_physics_remastered, sspb, stackdeobfuscator, stackdeobfuscator-common, status-effect-bars, stendhal, stfu, suppressopengl1280, syncmatica, tcdcommons, toadlib, tweakermore, tweakeroo, txnilib, viafabricplus, viafabricplus-visuals, visuality, vmp, voicechat, yet_another_config_lib_v3, yosbr, zoomify, file/SodiumTranslations.zip, file/NoCaveAmbience.zip, file/xaeros-map-chinese.zip, continuity:default, continuity:glass_pane_culling_fix, file/XKRD 红显v3.5for1.20.2~1.21.3.zip, file/masa-mods-chinese.zip, file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip
+[17:06:23] [Worker-Main-3/INFO]: Scanned emoji shortcodes: 6923
+[17:06:23] [ForkJoinPool.commonPool-worker-2/INFO]: Registered 0 extra models
+[17:06:23] [Worker-Main-6/INFO]: Scanned emoji map size: 3581
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:alt' in pack: 'vanilla'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font bundle: 'minecraft:font/alt.json', font set: [minecraft:include/space,minecraft:font/ascii_sga.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:default' in pack: 'vanilla'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:default' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font bundle: 'minecraft:font/default.json', font set: [minecraft:include/space,minecraft:include/default,minecraft:include/cjk-punctuations]
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:illageralt' in pack: 'vanilla'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font bundle: 'minecraft:font/illageralt.json', font set: [minecraft:include/space,minecraft:font/asciillager.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:include/cjk-punctuations' in pack: 'file/Minecraft-Mod-Language-Modpack-Converted-1.21.4.zip'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font bundle: 'minecraft:font/include/cjk-punctuations.json', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:include/default' in pack: 'vanilla'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font bundle: 'minecraft:font/include/default.json', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font 'minecraft:include/space' in pack: 'vanilla'
+[17:06:23] [Worker-Main-7/INFO]: Loaded raw font bundle: 'minecraft:font/include/space.json', font set: [minecraft:include/space / minecraft:space]
+[17:06:23] [Worker-Main-7/INFO]: Loaded font: 'minecraft:include/space', font set: [minecraft:include/space / minecraft:space]
+[17:06:23] [Worker-Main-7/INFO]: Loaded font: 'minecraft:include/default', font set: [minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded font: 'minecraft:include/cjk-punctuations', font set: [minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded font: 'minecraft:default', font set: [minecraft:include/space / minecraft:space,minecraft:font/nonlatin_european.png,minecraft:font/accented.png,minecraft:font/ascii.png,minecraft:font/element_ideographs.png,minecraft:font/cjk_punctuations.png,minecraft:font/ellipsis.png,minecraft:font/2em_dash.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded font: 'minecraft:illageralt', font set: [minecraft:include/space / minecraft:space,minecraft:font/asciillager.png]
+[17:06:23] [Worker-Main-7/INFO]: Loaded font: 'minecraft:alt', font set: [minecraft:include/space / minecraft:space,minecraft:font/ascii_sga.png]
+[17:06:23] [Worker-Main-3/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
+[17:06:24] [Render thread/INFO]: [ETF]: reloading ETF data.
+[17:06:24] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[17:06:24] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[17:06:24] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[17:06:24] [Render thread/INFO]: [Simple Menu] Loading texture data.
+[17:06:24] [Worker-Main-4/WARN]: Invalid path in datapack: minecraft:models/block/pressure_plate_down x.json, ignoring
+[17:06:25] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'minecraft:scaffolding/file/XKRD 红显v3.5for1.20.2~1.21.3.zip' for variant: 'bottom=false,1': Unknown blockstate property: '1'
+[17:06:25] [Worker-Main-6/WARN]: Exception loading blockstate definition: 'minecraft:scaffolding/file/XKRD 红显v3.5for1.20.2~1.21.3.zip' for variant: 'bottom=true,1': Unknown blockstate property: '1'
+[17:06:26] [Render thread/WARN]: Unable to find entity: 'minecraft:boat'
+[17:06:26] [Render thread/INFO]: Cached all modded block culling states
+[17:06:27] [Worker-Main-5/WARN]: Texture minecraft:block/sculk_sensor_tendril_active with size 8x8 limits mip level from 4 to 3
+[17:06:27] [Worker-Main-5/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 3, because of minimum power of two: 8
+[17:06:36] [Download-2/ERROR]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to POST https://api.minecraftservices.com/player/certificates
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:132) ~[authlib-6.0.57.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:63) ~[authlib-6.0.57.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.handler$jje000$viafabricplus$storeLegacyPublicKeySignature(YggdrasilUserApiService.java:1052) ~[authlib-6.0.57.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java) ~[authlib-6.0.57.jar:?]
+	at knot//MC/net.minecraft.client.session.ProfileKeysImpl.fetchKeyPair(ProfileKeysImpl.java:129) ~[client-intermediary.jar:?]
+	at knot//MC/net.minecraft.client.session.ProfileKeysImpl.method_44291(ProfileKeysImpl.java:77) ~[client-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1812) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1515) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1460) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1423) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:219) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:129) ~[authlib-6.0.57.jar:?]
+	... 9 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:494) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1460) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1423) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:219) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:129) ~[authlib-6.0.57.jar:?]
+	... 9 more
+[17:06:36] [Worker-Main-4/WARN]: Missing texture references in model minecraft:redstone_wire#west=none,north=none,south=up,power=8,east=side:
     particle
-[16:11:01] [Worker-Main-3/WARN]: Missing texture references in model minecraft:chiseled_bookshelf#slot_5_occupied=true,slot_1_occupied=false,slot_2_occupied=true,slot_4_occupied=false,slot_3_occupied=true,facing=south,slot_0_occupied=true:
+[17:06:36] [Worker-Main-4/WARN]: Missing texture references in model minecraft:chiseled_bookshelf#facing=west,slot_3_occupied=false,slot_0_occupied=true,slot_2_occupied=true,slot_5_occupied=false,slot_1_occupied=false,slot_4_occupied=true:
     particle
-[16:11:03] [Render thread/INFO]: Client started, setting up xray store
-[16:11:03] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[16:11:03] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[16:11:03] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[16:11:03] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[16:11:03] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[16:11:03] [Render thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[16:11:05] [Render thread/INFO]: UI renderer initialized
-[16:11:05] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 2, locale: zh_CN, layout RTL: false
-[16:11:05] [Render thread/INFO]: Font 'Noto Sans' failed to load or invalid
-[16:11:05] [Render thread/INFO]: Font 'Segoe UI Variable' failed to load or invalid
-[16:11:05] [Render thread/INFO]: Font 'San Francisco' failed to load or invalid
-[16:11:05] [Render thread/INFO]: Font 'Open Sans' failed to load or invalid
-[16:11:05] [Render thread/INFO]: Font 'STHeiti' failed to load or invalid
-[16:11:05] [Render thread/INFO]: Reloaded typeface: FontCollection{mFamilies=[Google Noto Color Emoji, Source Han Sans CN Medium, Segoe UI, SimHei, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
-[16:11:05] [Render thread/INFO]: Reloaded glyph manager
-[16:11:05] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 2, locale: zh_CN, layout RTL: false
-[16:11:05] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[16:11:06] [Render thread/WARN]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected key.isometric-renders.area_select to be a string, was an array (["",...域"]))
-[16:11:06] [Render thread/WARN]: Skipped language file: mythicmetals:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected tooltip.mythril_drill.upgrade_tip to be a string, was an array ([{"t..."}]))
-[16:11:06] [Render thread/WARN]: Skipped language file: minecells:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected chat.minecells.wipe_try to be a string, was an array (["\n...n"]))
-[16:11:06] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
-[16:11:06] [Render thread/INFO]: Initializing Sound Physics
-[16:11:06] [Render thread/INFO]: EFX Extension recognized
-[16:11:06] [Render thread/INFO]: Max auxiliary sends: 4
-[16:11:06] [Render thread/INFO]: Aux slot 1 created
-[16:11:06] [Render thread/INFO]: Aux slot 2 created
-[16:11:06] [Render thread/INFO]: Aux slot 3 created
-[16:11:06] [Render thread/INFO]: Aux slot 4 created
-[16:11:06] [Render thread/INFO]: EFX ready
-[16:11:06] [Render thread/INFO]: Sound engine started
-[16:11:06] [Render thread/INFO]: Font 'Noto Sans' failed to load or invalid
-[16:11:06] [Render thread/INFO]: Font 'Segoe UI Variable' failed to load or invalid
-[16:11:06] [Render thread/INFO]: Font 'San Francisco' failed to load or invalid
-[16:11:06] [Render thread/INFO]: Font 'Open Sans' failed to load or invalid
-[16:11:06] [Render thread/INFO]: Font 'STHeiti' failed to load or invalid
-[16:11:06] [Render thread/INFO]: Reloaded typeface: FontCollection{mFamilies=[Google Noto Color Emoji, Source Han Sans CN Medium, Segoe UI, SimHei, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
-[16:11:06] [Render thread/INFO]: Reloaded glyph manager
-[16:11:06] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 2, locale: zh_CN, layout RTL: false
-[16:11:06] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16:11:07] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[16:11:08] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
-[16:11:08] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16:11:08] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16:11:08] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/boundary.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/boundary_format.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/chat_log.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/chat_name_format.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/copy_color.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/copy_reply_format.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_check_style.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_color.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_compact.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_compact_distance.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_format.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/hover_color.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/hover_date.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/hover_format.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/message_drafting.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/search_drafting.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/shift_chat.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time_color.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time_date.webp'
-[16:11:09] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time_format.webp'
-[16:11:09] [Render thread/INFO]: [ETF]: reloading ETF data.
-[16:11:09] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[16:11:21] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 4, locale: zh_CN, layout RTL: false
-[16:11:22] [Render thread/INFO]: Adding auth button to the multiplayer screen
-[16:11:22] [ForkJoinPool.commonPool-worker-2/INFO]: Verifying Minecraft session...
-[16:11:23] [ForkJoinPool.commonPool-worker-2/INFO]: The Minecraft session is valid
-[16:11:28] [Render thread/INFO]: Stopping!
-[16:11:28] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
-[16:11:28] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
+[17:06:36] [Render thread/INFO]: Client started, setting up xray store
+[17:06:37] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[17:06:37] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[17:06:37] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[17:06:37] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[17:06:37] [Render thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[17:06:37] [Render thread/INFO]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[17:06:38] [Render thread/INFO]: UI renderer initialized
+[17:06:38] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 2, locale: zh_CN, layout RTL: false
+[17:06:39] [Render thread/INFO]: Font 'Noto Sans' failed to load or invalid
+[17:06:39] [Render thread/INFO]: Font 'Segoe UI Variable' failed to load or invalid
+[17:06:39] [Render thread/INFO]: Font 'San Francisco' failed to load or invalid
+[17:06:39] [Render thread/INFO]: Font 'Open Sans' failed to load or invalid
+[17:06:39] [Render thread/INFO]: Font 'STHeiti' failed to load or invalid
+[17:06:39] [Render thread/INFO]: Reloaded typeface: FontCollection{mFamilies=[Google Noto Color Emoji, Source Han Sans CN Medium, Segoe UI, SimHei, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
+[17:06:39] [Render thread/INFO]: Reloaded glyph manager
+[17:06:39] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 2, locale: zh_CN, layout RTL: false
+[17:06:39] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[17:06:39] [Render thread/WARN]: Skipped language file: isometric-renders:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected key.isometric-renders.area_select to be a string, was an array (["",...域"]))
+[17:06:39] [Render thread/WARN]: Skipped language file: mythicmetals:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected tooltip.mythril_drill.upgrade_tip to be a string, was an array ([{"t..."}]))
+[17:06:39] [Render thread/WARN]: Skipped language file: minecells:lang/zh_cn.json (com.google.gson.JsonSyntaxException: Expected chat.minecells.wipe_try to be a string, was an array (["\n...n"]))
+[17:06:40] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[17:06:40] [Render thread/INFO]: Initializing Sound Physics
+[17:06:40] [Render thread/INFO]: EFX Extension recognized
+[17:06:40] [Render thread/INFO]: Max auxiliary sends: 4
+[17:06:40] [Render thread/INFO]: Aux slot 1 created
+[17:06:40] [Render thread/INFO]: Aux slot 2 created
+[17:06:40] [Render thread/INFO]: Aux slot 3 created
+[17:06:40] [Render thread/INFO]: Aux slot 4 created
+[17:06:40] [Render thread/INFO]: EFX ready
+[17:06:40] [Render thread/INFO]: Sound engine started
+[17:06:40] [Render thread/INFO]: Font 'Noto Sans' failed to load or invalid
+[17:06:40] [Render thread/INFO]: Font 'Segoe UI Variable' failed to load or invalid
+[17:06:40] [Render thread/INFO]: Font 'San Francisco' failed to load or invalid
+[17:06:40] [Render thread/INFO]: Font 'Open Sans' failed to load or invalid
+[17:06:40] [Render thread/INFO]: Font 'STHeiti' failed to load or invalid
+[17:06:40] [Render thread/INFO]: Reloaded typeface: FontCollection{mFamilies=[Google Noto Color Emoji, Source Han Sans CN Medium, Segoe UI, SimHei, Segoe UI Symbol, mui-i18n-compat], mExclusiveEastAsianBits=null}
+[17:06:40] [Render thread/INFO]: Reloaded glyph manager
+[17:06:40] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 2, locale: zh_CN, layout RTL: false
+[17:06:40] [Render thread/INFO]: Created: 2048x1024x3 minecraft:textures/atlas/blocks.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:06:40] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:06:42] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[17:06:43] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[17:06:43] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:06:43] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:06:43] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/boundary.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/boundary_format.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/chat_log.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/chat_name_format.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/copy_color.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/copy_reply_format.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_check_style.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_color.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_compact.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_compact_distance.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/counter_format.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/hover_color.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/hover_date.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/hover_format.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/message_drafting.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/search_drafting.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/shift_chat.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time_color.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time_date.webp'
+[17:06:44] [Render thread/INFO]: Successfully loaded image 'chatpatches:textures/preview/time_format.webp'
+[17:06:44] [Render thread/INFO]: [ETF]: reloading ETF data.
+[17:06:44] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[17:09:45] [Render thread/ERROR]: ########## GL ERROR ##########
+[17:09:45] [Render thread/ERROR]: @ Render
+[17:09:45] [Render thread/ERROR]: 65539: Invalid mouse button 99
+[17:09:47] [Render thread/INFO]: Reloaded text layout engine, res level: 2 to 4, locale: zh_CN, layout RTL: false
+[17:09:47] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:09:47] [ForkJoinPool.commonPool-worker-4/INFO]: Verifying Minecraft session...
+[17:09:48] [ForkJoinPool.commonPool-worker-4/INFO]: The Minecraft session is valid
+[17:09:49] [Render thread/ERROR]: ########## GL ERROR ##########
+[17:09:49] [Render thread/ERROR]: @ Render
+[17:09:49] [Render thread/ERROR]: 65539: Invalid mouse button 99
+[17:09:50] [Render thread/ERROR]: ########## GL ERROR ##########
+[17:09:50] [Render thread/ERROR]: @ Render
+[17:09:50] [Render thread/ERROR]: 65539: Invalid mouse button 99
+[17:09:52] [Render thread/INFO]: Connecting to play.orwoe.cn, 25565
+[17:09:54] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:09:56] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:09:57] [Render thread/INFO]: Connecting to play.orwoe.cn, 25565
+[17:09:59] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:10:00] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:10:01] [Render thread/INFO]: Connecting to play.orwoe.cn, 25565
+[17:10:02] [Render thread/INFO]: Registered 17 custom block set types
+[17:10:02] [Render thread/INFO]: Loaded 0 Custom Item Models for 0 items
+[17:10:02] [Render thread/INFO]: Reloaded Polytone Resources in 25 ms
+[17:10:03] [Render thread/INFO]: Enforcing safe world random access
+[17:10:03] [Netty Client IO #1/INFO]: Accepting version leaves-syncmatica-1.1.0 from partner multiplayer_fallback
+[17:10:03] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[17:10:03] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[17:10:03] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[17:10:03] [Netty Client IO #1/INFO]: Joining syncmatica server with local version 0.3.13-sakura.3
+[17:10:03] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess)
+[17:10:03] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache)
+[17:10:04] [Render thread/WARN]: @ModifyVariable(@At("HEAD")) Shift.BY=1 on sspb.fabric.mixins.json:sodium.SmoothLightPipelineMixin from mod sspb::localvar$hka000$sspb$modifyApplyInsetPartialFaceVertexN2d exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[17:10:04] [Render thread/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline)
+[17:10:04] [Render thread/INFO]: Started 2 worker threads
+[17:10:04] [Render thread/WARN]: Method overwrite conflict for setExhaustion in carpet.mixins.json:FoodData_scarpetMixin from mod carpet, previously written by squeek.appleskin.mixin.HungerManagerMixin. Skipping method.
+[17:10:04] [Render thread/INFO]: [ChatLog.deserialize] Reading...
+[17:10:05] [Render thread/INFO]: [ChatLog.deserialize] Read the chat log containing 1741 messages and 104 sent messages from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\logs\chatlog.json' in 0.206 seconds
+[17:10:06] [Render thread/INFO]: [ChatLog.restore] Restored 1741 messages and 104 history messages from 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\logs\chatlog.json' into Minecraft!
+[17:10:06] [Render thread/INFO]: [CHAT] §8[§rMinecraft服务器§8]
+[17:10:06] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[17:10:06] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[17:10:06] [Render thread/INFO]: Initializing Sound Physics
+[17:10:06] [Render thread/INFO]: EFX Extension recognized
+[17:10:06] [Render thread/INFO]: Max auxiliary sends: 2
+[17:10:06] [Render thread/INFO]: Aux slot 1 created
+[17:10:06] [Render thread/INFO]: Aux slot 2 created
+[17:10:06] [Render thread/INFO]: Aux slot 3 created
+[17:10:06] [Render thread/INFO]: Aux slot 4 created
+[17:10:06] [Render thread/INFO]: EFX ready
+[17:10:07] [Render thread/INFO]: [Inventory Profiles Next] Loaded 0 external GUI hints
+[17:10:07] [Render thread/INFO]: [Inventory Profiles Next] Loaded 803 build-in GUI hints
+[17:10:07] [Render thread/INFO]: [Inventory Profiles Next] Effective GUI hints after merge: 803
+[17:10:07] [Render thread/WARN]: Unable to find entity: 'minecraft:boat'
+[17:10:07] [Render thread/INFO]: Using 3 total BufferAllocator caches
+[17:10:07] [Render thread/WARN]: Unable to read property: west with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: east with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: south with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: north with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: west with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: east with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: south with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Unable to read property: north with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[17:10:07] [Render thread/WARN]: Ignoring player info update for unknown player 082202bb-527f-4f9e-9959-f5e0966fc04f ([UPDATE_DISPLAY_NAME])
+[17:10:07] [Render thread/WARN]: Ignoring player info update for unknown player 082202bb-527f-4f9e-9959-f5e0966fc04f ([UPDATE_LATENCY])
+[17:10:07] [Render thread/WARN]: Ignoring player info update for unknown player 082202bb-527f-4f9e-9959-f5e0966fc04f ([UPDATE_LATENCY])
+[17:10:07] [Render thread/INFO]: [CHAT] KeyFac加入了游戏
+[17:10:07] [Render thread/INFO]: Loaded 2 advancements
+[17:10:08] [Render thread/INFO]: Received config from the server: {}
+[17:10:08] [Render thread/INFO]: [voicechat] Received secret
+[17:10:08] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '223.82.2.153:24454'
+[17:10:08] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[17:10:08] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[17:10:08] [Render thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[17:10:09] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[17:10:09] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[17:10:10] [Render thread/INFO]: [CHAT] §eJourneyMap:§f 按 [§bJ§f]
+[17:10:39] [Render thread/INFO]: [CHAT] 已设置重生点
+[17:10:46] [InventoryHUD+ version check/INFO]: [STDOUT]: [InventoryHUD+] Failed to process update information:
+java.net.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+[17:11:06] [Render thread/INFO]: [ChatLog.serialize] Saving...
+[17:11:06] [Render thread/INFO]: [ChatLog.serialize] Saved the chat log containing 1745 messages and 104 sent messages to 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\logs\chatlog.json' in 0.19 seconds
+[17:11:07] [Render thread/INFO]: [voicechat] Clearing audio channels
+[17:11:07] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[17:11:07] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[17:11:07] [Render thread/INFO]: Stopping worker threads
+[17:11:07] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:11:07] [ForkJoinPool.commonPool-worker-4/INFO]: Verifying Minecraft session...
+[17:11:07] [ForkJoinPool.commonPool-worker-4/INFO]: The Minecraft session is valid
+[17:11:27] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:11:28] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:11:29] [Render thread/INFO]: Connecting to play.orwoe.cn, 25565
+[17:11:29] [Render thread/INFO]: Registered 17 custom block set types
+[17:11:29] [Render thread/INFO]: Loaded 0 Custom Item Models for 0 items
+[17:11:29] [Render thread/INFO]: Reloaded Polytone Resources in 0 ms
+[17:11:29] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[17:11:29] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[17:11:29] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[17:11:29] [Render thread/INFO]: Started 2 worker threads
+[17:11:29] [Render thread/INFO]: [CHAT] §8[§rForstCraft§8]
+[17:11:29] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[17:11:29] [Netty Client IO #12/INFO]: Accepting version leaves-syncmatica-1.1.0 from partner multiplayer_fallback
+[17:11:29] [Render thread/INFO]: Initializing sound physics for voice chat audio
+[17:11:29] [Render thread/INFO]: Initializing Sound Physics
+[17:11:29] [Render thread/INFO]: EFX Extension recognized
+[17:11:29] [Render thread/INFO]: Max auxiliary sends: 2
+[17:11:29] [Render thread/INFO]: Aux slot 1 created
+[17:11:29] [Render thread/INFO]: Aux slot 2 created
+[17:11:29] [Render thread/INFO]: Aux slot 3 created
+[17:11:29] [Render thread/INFO]: Aux slot 4 created
+[17:11:29] [Render thread/INFO]: EFX ready
+[17:11:29] [Render thread/WARN]: Unable to find entity: 'minecraft:boat'
+[17:11:29] [Render thread/INFO]: Using 3 total BufferAllocator caches
+[17:11:29] [Render thread/WARN]: Ignoring player info update for unknown player 082202bb-527f-4f9e-9959-f5e0966fc04f ([UPDATE_LATENCY])
+[17:11:29] [Render thread/WARN]: Ignoring player info update for unknown player 082202bb-527f-4f9e-9959-f5e0966fc04f ([UPDATE_LATENCY])
+[17:11:29] [Render thread/WARN]: Ignoring player info update for unknown player 082202bb-527f-4f9e-9959-f5e0966fc04f ([UPDATE_DISPLAY_NAME])
+[17:11:29] [Render thread/INFO]: [CHAT] KeyFac加入了游戏
+[17:11:29] [Render thread/INFO]: Loaded 2 advancements
+[17:11:29] [Render thread/INFO]: Received config from the server: {}
+[17:11:29] [Render thread/INFO]: [voicechat] Received secret
+[17:11:29] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '223.82.2.153:24454'
+[17:11:29] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[17:11:29] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[17:11:30] [Netty Client IO #12/INFO]: Joining syncmatica server with local version 0.3.13-sakura.3
+[17:11:30] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[17:11:30] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[17:12:14] [Render thread/INFO]: Loaded 4 advancements
+[17:12:15] [Render thread/INFO]: [CHAT] KeyFac取得了进度[开荒垦地]
+[17:12:15] [Render thread/INFO]: Loaded 8 advancements
+[17:12:38] [Render thread/INFO]: Loaded 11 advancements
+[17:13:10] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:the_nether
+[17:13:10] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[17:13:10] [Render thread/INFO]: Creating pipeline for dimension minecraft:the_nether
+[17:13:10] [Render thread/INFO]: Stopping worker threads
+[17:13:10] [Render thread/INFO]: Started 2 worker threads
+[17:13:10] [Render thread/INFO]: Stopping worker threads
+[17:13:10] [Render thread/INFO]: Started 2 worker threads
+[17:13:10] [Render thread/INFO]: [CHAT] KeyFac取得了进度[勇往直下]
+[17:13:10] [Render thread/INFO]: Loaded 39 advancements
+[17:13:10] [Render thread/INFO]: Loaded 39 advancements
+[17:14:08] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:the_nether => minecraft:overworld
+[17:14:08] [Render thread/INFO]: Destroying pipeline minecraft:the_nether
+[17:14:08] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[17:14:08] [Render thread/INFO]: Stopping worker threads
+[17:14:08] [Render thread/INFO]: Started 2 worker threads
+[17:14:08] [Render thread/INFO]: Stopping worker threads
+[17:14:08] [Render thread/INFO]: Started 2 worker threads
+[17:14:28] [Render thread/INFO]: [CHAT] 已设置重生点
+[17:16:11] [Render thread/INFO]: Loaded 55 advancements
+[17:16:18] [Render thread/WARN]: Ignoring player info update for unknown player b9b96512-0a76-4a17-b995-b291c5ea5c55 ([UPDATE_LATENCY])
+[17:16:18] [Render thread/WARN]: Ignoring player info update for unknown player b9b96512-0a76-4a17-b995-b291c5ea5c55 ([UPDATE_DISPLAY_NAME])
+[17:16:18] [Render thread/INFO]: [CHAT] mc_deepseek加入了游戏
+[17:16:23] [Render thread/INFO]: [CHAT] Bossbar 不再可见。神奇！
+[17:16:37] [Render thread/INFO]: Loaded 58 advancements
+[17:17:27] [Render thread/INFO]: Loaded 66 advancements
+[17:17:27] [Render thread/INFO]: Loaded 76 advancements
+[17:18:02] [Render thread/INFO]: [CHAT] 未知或不完整的命令，错误见下\nrk<--[此处]
+[17:18:18] [Render thread/INFO]: [CHAT] CoreProtect - 请指定查找时间.
+[17:18:19] [Render thread/INFO]: Loaded 86 advancements
+[17:18:26] [Render thread/INFO]: [CHAT] CoreProtect - 正在搜索，请稍等...
+[17:18:26] [Render thread/INFO]: [CHAT] CoreProtect - 玩家"yunfan0502"未找到。
+[17:18:30] [Render thread/INFO]: [CHAT] CoreProtect - 正在搜索，请稍等...
+[17:18:30] [Render thread/INFO]: [CHAT] CoreProtect - 玩家"yunfan0502"未找到。
+[17:19:43] [Render thread/INFO]: Loaded 86 advancements
+[17:19:52] [Render thread/INFO]: Loaded 87 advancements
+[17:19:54] [Render thread/INFO]: [CHAT] KeyFac取得了进度[来硬的]
+[17:19:54] [Render thread/INFO]: Loaded 115 advancements
+[17:20:02] [Render thread/INFO]: Loaded 115 advancements
+[17:20:21] [Render thread/INFO]: Loaded 116 advancements
+[17:21:15] [Render thread/INFO]: [CHAT] KeyFac取得了进度[整装上阵]
+[17:21:15] [Render thread/INFO]: Loaded 118 advancements
+[17:21:40] [Render thread/INFO]: [CHAT] KeyFac取得了进度[这不是铁镐么]
+[17:21:40] [Render thread/INFO]: Loaded 120 advancements
+[17:21:55] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 你居然还记得服务器
+[17:21:57] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 泪目了
+[17:22:19] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 其实我上周还在给空置域铺铁砧。
+[17:23:07] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 本来我是计划直接把服务器升到1.21.5
+[17:23:13] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 但是好像有些bug
+[17:23:23] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 为了稳定我就没升级
+[17:24:10] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 纯原版原来也会有bug吗（？）
+[17:24:21] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 严格意义上不算纯原版
+[17:24:45] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 只是说玩法机制保持原版
+[17:25:02] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 所以服务端是...?
+[17:25:30] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> purpur的下游
+[17:25:59] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> T**复制机什么的都是正常的
+[17:27:05] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 纯原版可做不到服务器目前的状态
+[17:27:16] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 是指高优化吗
+[17:27:23] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 不止
+[17:27:33] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 纯原版优化很烂的
+[17:27:38] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 还有co?
+[17:27:41] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 不管你服务器配置多好
+[17:27:50] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 20人左右就会开始卡
+[17:28:04] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 这么石山的代码吗（
+[17:28:13] [Render thread/INFO]: [CHAT] 你没有权限使用此命令！
+[17:28:15] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 基岩互通，右边的计分板数据，还有各种优化
+[17:28:15] [Render thread/INFO]: [CHAT] PlaceholderAPI (2.11.6)
+[17:28:15] [Render thread/INFO]: [CHAT] Author: [HelpChat]
+[17:28:15] [Render thread/INFO]: [CHAT] PAPI Commands: /papi help
+[17:28:15] [Render thread/INFO]: [CHAT] eCloud Commands: /papi ecloud
+[17:28:19] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 原版是做不到的
+[17:28:21] [Render thread/INFO]: [CHAT] You do not have permission to do this!
+[17:28:34] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 没发现mspt很低吗
+[17:28:37] [Render thread/INFO]: [CHAT] Unknown command!
+[17:28:43] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 新换的核心优化很好
+[17:28:44] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 是的 低的离谱
+[17:28:56] [Render thread/INFO]: [CHAT] I'm sorry, but you do not have permission to perform this command.
+[17:29:08] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> ./horizon 这个是什么插件
+[17:29:19] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 不存在的插件
+[17:29:28] [Render thread/INFO]: [CHAT] Error: Path 'Messages.Default.Permission' does not exist!
+[17:29:28] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 那是假指令
+[17:29:35] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 好的（）
+[17:30:05] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 目前服务器是模拟12视距32
+[17:30:07] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 额为什么会有messages.default.permisson的路径依赖
+[17:30:12] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 这种情况下mspt依然很低
+[17:30:18] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 模拟12还这么低的mspt
+[17:30:22] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 是的
+[17:30:26] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 有点**了
+[17:30:33] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> ？违禁词的意义是？
+[17:30:39] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 因为前段时间
+[17:30:40] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 方便qq互通？
+[17:30:46] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 有人对骂
+[17:30:54] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 我怕给我群弄封了
+[17:31:01] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 好的（）
+[17:31:14] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 所以这个号是谁（
+[17:31:37] [Render thread/INFO]: [CHAT] <§c1.21.5§fmc_deepseek> 史蒂夫
+[17:31:53] [Render thread/INFO]: [CHAT] mc_deepseek退出了游戏
+[17:31:54] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 额我指的**ID(?)
+[17:32:15] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:the_nether
+[17:32:15] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[17:32:15] [Render thread/INFO]: Creating pipeline for dimension minecraft:the_nether
+[17:32:15] [Render thread/INFO]: Stopping worker threads
+[17:32:15] [Render thread/INFO]: Started 2 worker threads
+[17:32:15] [Render thread/INFO]: Stopping worker threads
+[17:32:15] [Render thread/INFO]: Started 2 worker threads
+[17:33:00] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:the_nether => minecraft:overworld
+[17:33:00] [Render thread/INFO]: Destroying pipeline minecraft:the_nether
+[17:33:00] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[17:33:00] [Render thread/INFO]: Stopping worker threads
+[17:33:00] [Render thread/INFO]: Started 2 worker threads
+[17:33:00] [Render thread/INFO]: Stopping worker threads
+[17:33:00] [Render thread/INFO]: Started 2 worker threads
+[17:33:51] [Render thread/INFO]: [CHAT] [Server] 我是服主
+[17:33:58] [Render thread/INFO]: [CHAT] [Server] 改了ID而已
+[17:34:01] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 收到。
+[17:34:24] [Render thread/INFO]: [CHAT] [Server] 服务器地图map.orwoe.cn
+[17:34:30] [Sound engine/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[17:34:36] [Render thread/INFO]: [CHAT] [Server] 服务器数据plan.orwoe.cn
+[17:34:51] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 这是自动回复吗（？）
+[17:34:56] [Render thread/INFO]: [CHAT] [Server] 官网www.orwoe.cn（机器经常崩溃所以访问不了是正常的）
+[17:35:01] [Render thread/INFO]: [CHAT] [Server] 我是真人
+[17:35:20] [Render thread/INFO]: [CHAT] [Server] 你要下载老存档吗
+[17:35:34] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 太大了吧（
+[17:35:39] [Render thread/INFO]: [CHAT] [Server] 20G而已
+[17:35:56] [Render thread/INFO]: [CHAT] [Server] 那个网盘是服务器自己搭建的
+[17:36:02] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 之前下了一个6G的存档
+[17:36:06] [Render thread/INFO]: [CHAT] [Server] 以后有什么文件都会放在里面
+[17:36:12] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 然后有一个方块有问题不知道为什么
+[17:36:20] [Render thread/INFO]: [CHAT] [Server] 版本不对应该是
+[17:36:26] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 然后我用地图编辑器改完保存存了一晚上。
+[17:36:39] [Render thread/INFO]: [CHAT] [Server] 服务器存档已经是压缩过的了
+[17:36:44] [Render thread/INFO]: [CHAT] [Server] 源文件40多
+[17:36:57] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 服务器硬盘有多大（
+[17:37:07] [Render thread/INFO]: [CHAT] [Server] 系统盘512G
+[17:37:17] [Render thread/INFO]: [CHAT] [Server] 备份盘是12T
+[17:37:27] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 好的（）
+[17:37:42] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 哦rk那个插件可以加回来吗（）
+[17:37:51] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:the_nether
+[17:37:51] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[17:37:51] [Render thread/INFO]: Creating pipeline for dimension minecraft:the_nether
+[17:37:51] [Render thread/INFO]: Stopping worker threads
+[17:37:51] [Render thread/INFO]: Started 2 worker threads
+[17:37:51] [Render thread/INFO]: Stopping worker threads
+[17:37:51] [Render thread/INFO]: Started 2 worker threads
+[17:37:57] [Render thread/INFO]: [CHAT] [Server] 可以
+[17:38:11] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> (*^▽^*)
+[17:38:12] [Render thread/INFO]: [ChatLog.serialize] Saving...
+[17:38:12] [Render thread/INFO]: [ChatLog.serialize] Saved the chat log containing 1841 messages and 142 sent messages to 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\logs\chatlog.json' in 0.111 seconds
+[17:38:25] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 最近上线的还有谁
+[17:38:35] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:the_nether => minecraft:overworld
+[17:38:35] [Render thread/INFO]: Destroying pipeline minecraft:the_nether
+[17:38:35] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[17:38:35] [Render thread/INFO]: Stopping worker threads
+[17:38:35] [Render thread/INFO]: Started 2 worker threads
+[17:38:35] [Render thread/INFO]: Stopping worker threads
+[17:38:35] [Render thread/INFO]: Started 2 worker threads
+[17:38:38] [Render thread/INFO]: [CHAT] [Server] 可以看数据分析plan.orwoe.cn
+[17:38:42] [Render thread/INFO]: [CHAT] [Server] 都有记录的
+[17:38:51] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 好的
+[17:39:01] [Render thread/INFO]: [CHAT] [Server] 其实我是不想装rk的
+[17:39:08] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> ？为什么
+[17:39:26] [Render thread/INFO]: [CHAT] [Server] 因为之前就是数据库太多了，导致服务器IO压力极大
+[17:39:36] [Render thread/INFO]: [CHAT] [Server] 上次已经精简了
+[17:39:48] [Render thread/INFO]: [CHAT] [Server] 在线时长可以在plan.orwoe.cn看
+[17:39:56] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> ？rk原来占io吗 没有想到的原因
+[17:40:19] [Render thread/INFO]: [CHAT] [Server] 数据都是存数据库的啊，而且每刻都在读写
+[17:40:37] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 那确实很吃性能了
+[17:40:46] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 但是坏消息plan.orwoe.cn打不开
+[17:41:19] [Render thread/INFO]: [CHAT] <§c1.21.4§fKeyFac> 额我手机问题
+[17:44:07] [Render thread/INFO]: [ChatLog.serialize] Saving...
+[17:44:08] [Render thread/INFO]: [ChatLog.serialize] Saved the chat log containing 1855 messages and 149 sent messages to 'D:\Users\Documents\Github\DreamBorderX-MC-SurvivalMachine\.minecraft\versions\Arcomua Cloth 1.21.4 Fabric 250305\logs\chatlog.json' in 0.355 seconds
+[17:44:10] [Render thread/INFO]: [voicechat] Clearing audio channels
+[17:44:10] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[17:44:10] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[17:44:11] [Render thread/INFO]: Stopping worker threads
+[17:44:11] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[17:44:11] [ForkJoinPool.commonPool-worker-4/INFO]: Verifying Minecraft session...
+[17:44:12] [ForkJoinPool.commonPool-worker-4/INFO]: The Minecraft session is valid
+[17:44:12] [Render thread/INFO]: Stopping!
+[17:44:12] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[17:44:13] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
